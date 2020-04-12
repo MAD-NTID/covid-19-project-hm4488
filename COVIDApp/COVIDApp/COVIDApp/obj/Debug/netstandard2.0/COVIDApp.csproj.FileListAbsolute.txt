@@ -1,0 +1,7 @@
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\bin\Debug\netstandard2.0\COVIDApp.deps.json
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\bin\Debug\netstandard2.0\COVIDApp.dll
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\obj\Debug\netstandard2.0\COVIDApp.csprojAssemblyReference.cache
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\obj\Debug\netstandard2.0\COVIDApp.AssemblyInfoInputs.cache
+C:\Users\harsh\source\repos\COVIDApp\COVIDApp\COVIDApp\obj\Debug\netstandard2.0\COVIDApp.AssemblyInfo.cs
