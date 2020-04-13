@@ -4,17 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
-             x:Class="CovidApp.SurvivalGuidePage">
+             x:Class="CovidApp.SurvivalGuidePage"
+             Title="Survival Guide">
     <ContentPage.Content>
-        <forms:AnimationView 
-	     x:Name="animationView" 
-	      Animation="LottieLogo1.json" 
-	      Loop="True" 
-	      AutoPlay="True"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"/>
+        <!---->
 
-        <!-- <CarouselView  x:Name="carouselCollectionView" ItemsSource="{Binding Guides}">
+        <CarouselView  x:Name="carouselCollectionView" ItemsSource="{Binding Guides}">
             <CarouselView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" />
             </CarouselView.ItemsLayout>
@@ -24,34 +19,46 @@
                         <Frame HasShadow="True"
                        BorderColor="DarkGray"
                        CornerRadius="5"
-                       Margin="20"
-                       HeightRequest="300"
+                               BackgroundColor="Transparent"
+                       Margin="10"
+                       HeightRequest="200"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand">
                             <StackLayout>
                                 <Label Text="{Binding Info}"
-                               FontAttributes="Bold"
+                              
                                TextColor="{StaticResource labelColor}"
-                               FontSize="Large"
+                               FontSize="Medium"
+                                       FontAttributes="Bold"
+                                       MaxLines="5"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" />
-                                  <Image Source="{Binding ImageUrl}"
+                                  <!--<Image Source="{Binding ImageUrl}"
                                Aspect="AspectFill"
                                HeightRequest="150"
                                WidthRequest="150"
-                               HorizontalOptions="Center" />
+                               HorizontalOptions="Center" />-->
+
+                                <!--<forms:AnimationView 
+	                               x:Name="animationView" 
+	                               Animation="LottieLogo1.json" 
+	                                Loop="True" 
+	                                 AutoPlay="True"
+                                      HorizontalOptions="Center"
+                                        VerticalOptions="Center"/>-->
 
                                 <Label Text="{Binding Details}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Italic"
                                HorizontalOptions="Center"
-                               MaxLines="5"
+                               MaxLines="20"
+                                       FontSize="Body"
                                LineBreakMode="TailTruncation" />
                             </StackLayout>
                         </Frame>
                     </StackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
-        </CarouselView> -->
+        </CarouselView> 
     </ContentPage.Content>
 </ContentPage>

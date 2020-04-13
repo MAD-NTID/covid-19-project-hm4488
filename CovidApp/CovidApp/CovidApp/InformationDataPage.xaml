@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CovidApp.InformationDataPage"
+             Title="Statistics">
+    <ContentPage.Content>
+        
+            <CarouselView  x:Name="carouselCollectionView" ItemsSource="{Binding coronavirusDataAllCountries}"
+                       PeekAreaInsets="10">
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"  ItemSpacing="10"/>
+            </CarouselView.ItemsLayout>
+                
+            <CarouselView.ItemTemplate>
+                
+                <DataTemplate>
+                    
+                    <StackLayout>
+                        
+                        <Frame HasShadow="True"
+                       BorderColor="DarkGray"
+                       CornerRadius="5"
+                               BackgroundColor="Transparent"
+                       Margin="10"
+                       HeightRequest="200"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand">
+                            <StackLayout>
+                                <Label Text="{Binding country}"
+                              
+                                   TextColor="{StaticResource labelColor}"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   MaxLines="5"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center" />
+
+                                    <!--<Image Source="{Binding ImageUrl}"
+                                    Aspect="AspectFill"
+                                    HeightRequest="150"
+                                    WidthRequest="150"
+                                    HorizontalOptions="Center" />-->
+
+                                <!--<forms:AnimationView 
+	                               x:Name="animationView" 
+	                               Animation="LottieLogo1.json" 
+	                                Loop="True" 
+	                                 AutoPlay="True"
+                                      HorizontalOptions="Center"
+                                        VerticalOptions="Center"/>-->
+                                <Label Text="Confirmed:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
+
+                                <Label Text="{Binding confirmed}"
+                                       TextColor="{StaticResource labelColor}"
+                               FontAttributes="Italic"
+                               HorizontalOptions="Center"
+                               MaxLines="1"
+                                       FontSize="Body"
+                               LineBreakMode="TailTruncation" />
+
+                                <Label Text="Recovered:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
+
+                                <Label Text="{Binding recovered}"
+                                       TextColor="{StaticResource labelColor}"
+                               FontAttributes="Italic"
+                               HorizontalOptions="Center"
+                               MaxLines="1"
+                                       FontSize="Body"
+                               LineBreakMode="TailTruncation" />
+
+                                <Label Text="Deaths:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
+
+                                <Label Text="{Binding deaths}"
+                                       TextColor="{StaticResource labelColor}"
+                               FontAttributes="Italic"
+                               HorizontalOptions="Center"
+                               MaxLines="1"
+                                       FontSize="Body"
+                               LineBreakMode="TailTruncation" />
+
+                                
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </ContentPage.Content>
+</ContentPage>

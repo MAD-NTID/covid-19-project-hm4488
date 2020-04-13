@@ -255,6 +255,24 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -516,6 +534,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -780,6 +800,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -1146,6 +1184,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -1410,6 +1450,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
@@ -1777,6 +1835,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -2041,6 +2101,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -2397,6 +2475,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -2661,6 +2741,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -3027,6 +3125,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -3291,6 +3391,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -3658,6 +3776,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -3922,6 +4042,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -4288,6 +4426,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -4552,6 +4692,24 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/106.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -4919,6 +5077,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
           "MagicGradients": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -5517,6 +5677,52 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RestSharp/106.10.1": {
+      "sha512": "MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
+      "type": "package",
+      "path": "restsharp/106.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.10.1.nupkg.sha512",
+        "restsharp.nuspec"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {

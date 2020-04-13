@@ -7,6 +7,8 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Lottie.Forms.dll",
 		"MagicGradients.dll",
+		"Newtonsoft.Json.dll",
+		"RestSharp.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",

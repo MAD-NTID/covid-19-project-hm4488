@@ -12,7 +12,7 @@ namespace CovidApp
 
             SurvivalGuideCollection.PopulateData();
 
-            MainPage = new SurvivalGuidePage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

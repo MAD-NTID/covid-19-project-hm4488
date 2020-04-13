@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Iz06OumzHGnrG0KTlD2GU/WNFjBpcJQc1EN76uFaMVpkdM177B4YYLZdUoH3UKMaZF8qLk3wzImF5SsMzgVkkg==",
+  "dgSpecHash": "y14eiMT1OhLAJ3nTaUKUu/zimTKfqEP5xEzWS2uFJC85ut9Z8YTjG+xiXqG8HD0Q4XnguAnmexayM+9vxPFADQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.10\\com.airbnb.ios.lottie.2.5.10.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.1.0\\com.airbnb.xamarin.forms.lottie.3.1.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\restsharp\\106.10.1\\restsharp.106.10.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views.forms\\1.68.0\\skiasharp.views.forms.1.68.0.nupkg.sha512",
