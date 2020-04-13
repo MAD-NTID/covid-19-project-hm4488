@@ -1,5 +1,4 @@
-﻿using RestSharp;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -17,14 +16,8 @@ namespace CovidApp
         public MainPage()
         {
             InitializeComponent();
-
             this.Children.Add(new SurvivalGuidePage());
             this.Children.Add(new InformationDataPage());
-            
-
         }
     }
-
-
-   
 }

@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,6 +20,7 @@ namespace CovidApp.UWP
         public MainPage()
         {
             this.InitializeComponent();
+
             LoadApplication(new CovidApp.App());
         }
     }

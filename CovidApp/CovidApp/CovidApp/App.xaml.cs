@@ -9,9 +9,7 @@ namespace CovidApp
         public App()
         {
             InitializeComponent();
-
             SurvivalGuideCollection.PopulateData();
-
             MainPage = new MainPage();
         }
 

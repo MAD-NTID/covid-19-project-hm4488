@@ -14,12 +14,11 @@ namespace CovidApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class InformationDataPage : ContentPage
     {
-
         List<CoronavirusDataAllCountries> coronavirusDataAllCountries = new List<CoronavirusDataAllCountries>();
+        
         public InformationDataPage()
         {
             InitializeComponent();
-
             var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
             var request = new RestRequest(Method.GET);
             request.AddHeader("x-rapidapi-host", "covid-19-data.p.rapidapi.com");
@@ -27,21 +26,12 @@ namespace CovidApp
             IRestResponse response = client.Execute(request);
             var cData = JsonConvert.DeserializeObject<System.Collections.Generic.List<CoronavirusDataAllCountries>>(response.Content);
 
-
-            
-
-            //CoronavirusDataAllCountries coronavirus = null;
-
             for (int i = 0; i < cData.Count; i++)
             {
                 CoronavirusDataAllCountries coronavirusData = new CoronavirusDataAllCountries(cData[i].country, cData[i].confirmed, cData[i].recovered, cData[i].critical, cData[i].deaths, cData[i].latitude, cData[i].longitude);
-                
+
                 coronavirusDataAllCountries.Add(coronavirusData);
             }
-
-            
-
-            
 
             carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
         }

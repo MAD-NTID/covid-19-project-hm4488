@@ -14,11 +14,8 @@ namespace CovidApp
     {
         public SurvivalGuidePage()
         {
-            
             InitializeComponent();
-
             carouselCollectionView.ItemsSource = SurvivalGuideCollection.Guides;
-          
         }
     }
 }
