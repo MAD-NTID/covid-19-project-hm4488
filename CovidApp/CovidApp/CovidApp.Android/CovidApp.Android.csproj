@@ -76,6 +76,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\stay_safe_home.json" />
+    <AndroidAsset Include="Assets\seek_medical_care.json" />
+    <AndroidAsset Include="Assets\avoid_touching_your_face.json" />
+    <AndroidAsset Include="Assets\wash_your_hands.json" />
+    <AndroidAsset Include="Assets\cover_your_cough.json" />
+    <AndroidAsset Include="Assets\avoid_close_contact.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

@@ -21,3 +21,4 @@ C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\o
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.dll
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\ref\CovidApp.dll
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.pdb
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csprojAssemblyReference.cache
