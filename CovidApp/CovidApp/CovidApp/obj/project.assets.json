@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.356"
+          "Xamarin.Forms": "3.6.0.539721"
         },
         "compile": {
           "lib/netstandard2.0/Lottie.Forms.dll": {}
@@ -168,30 +168,26 @@
     }
   },
   "libraries": {
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.1.0": {
-      "sha512": "aOO+qvfD/czfT49S/RCBZUoCc4nGDMDMD9sBDdqDoQ/5RZR5eqs45W4ohlaQnY1w3te4CAw/IN2EesmZEMyiUA==",
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "sha512": "SjyXwM89wbSs8bpJ0o44TN3PCZp5ORqeFq00TlJTOljypME06KPka144h60MVmrbJ+Cz6IbeMA7kfCFKPGe7QA==",
       "type": "package",
-      "path": "com.airbnb.xamarin.forms.lottie/3.1.0",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE",
-        "com.airbnb.xamarin.forms.lottie.3.1.0.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
         "com.airbnb.xamarin.forms.lottie.nuspec",
-        "icon.png",
-        "lib/monoandroid10.0/Lottie.Forms.dll",
-        "lib/monoandroid10.0/Lottie.Forms.pdb",
-        "lib/monoandroid10.0/Lottie.Forms.xml",
+        "lib/monoandroid90/Lottie.Forms.dll",
+        "lib/monoandroid90/Lottie.Forms.dll.mdb",
+        "lib/monoandroid90/Lottie.Forms.pdb",
+        "lib/monoandroid90/Lottie.Forms.xml",
         "lib/netstandard2.0/Lottie.Forms.dll",
         "lib/netstandard2.0/Lottie.Forms.pdb",
         "lib/netstandard2.0/Lottie.Forms.xml",
-        "lib/tizen40/Lottie.Forms.dll",
-        "lib/tizen40/Lottie.Forms.pdb",
-        "lib/tizen40/Lottie.Forms.xml",
-        "lib/uap10.0.18362/Lottie.Forms.dll",
-        "lib/uap10.0.18362/Lottie.Forms.pdb",
-        "lib/uap10.0.18362/Lottie.Forms.pri",
-        "lib/uap10.0.18362/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
         "lib/xamarinios10/Lottie.Forms.dll",
         "lib/xamarinios10/Lottie.Forms.pdb",
         "lib/xamarinios10/Lottie.Forms.xml",
@@ -945,7 +941,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.1.0",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.0",
       "MagicGradients >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
@@ -962,11 +958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
       "projectName": "CovidApp",
-      "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
+      "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -999,7 +995,7 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.0.0, )"
           },
           "MagicGradients": {
             "target": "Package",

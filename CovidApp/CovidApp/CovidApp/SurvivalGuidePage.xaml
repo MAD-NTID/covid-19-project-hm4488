@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
-             x:Class="CovidApp.SurvivalGuidePage">
+             x:Class="CovidApp.SurvivalGuidePage"
+             Title="Survival Guide">
     <ContentPage.Content>
         <CarouselView  x:Name="carouselCollectionView" ItemsSource="{Binding Guides}">
             <CarouselView.ItemsLayout>

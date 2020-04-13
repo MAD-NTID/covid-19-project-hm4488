@@ -9,11 +9,12 @@
     ".NETStandard,Version=v2.0/": {
       "CovidApp/1.0.0": {
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
           "MagicGradients": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Multilingual": "1.0.2",
+          "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
         },
@@ -21,14 +22,14 @@
           "CovidApp.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "dependencies": {
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
           "lib/netstandard2.0/Lottie.Forms.dll": {
-            "assemblyVersion": "3.1.0.0",
-            "fileVersion": "3.1.0.0"
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -70,6 +71,14 @@
           "lib/netstandard1.0/Plugin.Multilingual.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RestSharp/106.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.0.0.0",
+            "fileVersion": "106.10.1.0"
           }
         }
       },
@@ -136,12 +145,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.1.0": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aOO+qvfD/czfT49S/RCBZUoCc4nGDMDMD9sBDdqDoQ/5RZR5eqs45W4ohlaQnY1w3te4CAw/IN2EesmZEMyiUA==",
-      "path": "com.airbnb.xamarin.forms.lottie/3.1.0",
-      "hashPath": "com.airbnb.xamarin.forms.lottie.3.1.0.nupkg.sha512"
+      "sha512": "sha512-SjyXwM89wbSs8bpJ0o44TN3PCZp5ORqeFq00TlJTOljypME06KPka144h60MVmrbJ+Cz6IbeMA7kfCFKPGe7QA==",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.0",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512"
     },
     "MagicGradients/1.0.0": {
       "type": "package",
@@ -177,6 +186,13 @@
       "sha512": "sha512-aDPTIQCOCGxCvcFs98nSswcFTHfHUpUSiSltobV5NoRELUQREl4n95dLZSuqey9cIb5G2Ni53YDG6KCnD9ZWYw==",
       "path": "plugin.multilingual/1.0.2",
       "hashPath": "plugin.multilingual.1.0.2.nupkg.sha512"
+    },
+    "RestSharp/106.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
+      "path": "restsharp/106.10.1",
+      "hashPath": "restsharp.106.10.1.nupkg.sha512"
     },
     "SkiaSharp/1.68.0": {
       "type": "package",
