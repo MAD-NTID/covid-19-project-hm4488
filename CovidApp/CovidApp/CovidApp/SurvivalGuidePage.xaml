@@ -63,7 +63,7 @@
                        CornerRadius="5"
                                BackgroundColor="Transparent"
                        Margin="10"
-                       HeightRequest="2200"
+                       HeightRequest="2170"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand">
                 <StackLayout>

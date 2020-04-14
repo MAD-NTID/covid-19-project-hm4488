@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YC9mzIU41KaxyOhPteLEnuCRIFk1j9fWED0Uk55jE7ZtPRtHO7Kwx7M+X4v9GCGu6Ozilza8lYr7zm3dpdpq/Q==",
+  "dgSpecHash": "RFzDSMqCnF1BW03tHAwXvTrzrx/co3GOZbg6s2EifgiPD6uZdu3xbUM2A8e+CUzS7teo/NfPx1ouhs8ZjdICNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.10\\com.airbnb.ios.lottie.2.5.10.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",

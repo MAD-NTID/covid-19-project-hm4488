@@ -10155,11 +10155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
       "projectName": "CovidApp.UWP",
-      "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
+      "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10181,8 +10181,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
-              "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
+            "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
+              "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
             }
           }
         }

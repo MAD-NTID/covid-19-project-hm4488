@@ -1604,11 +1604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
       "projectName": "CovidApp.iOS",
-      "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
+      "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1629,8 +1629,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
-              "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
+            "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
+              "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
             }
           }
         }

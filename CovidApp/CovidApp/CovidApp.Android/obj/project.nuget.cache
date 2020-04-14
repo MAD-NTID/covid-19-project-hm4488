@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sp9kCffkGEwWVWO3OqiLRxREeEILWTRa+45fHyQUNvFshYbdDzIScoL7+4DCp3wJaiR3qPJ/5jN3CX1dochD1Q==",
+  "dgSpecHash": "dSCVmjBBiaAWWAOTxc0sDWhY/p7F+uLBFjuMbkx0Nxwg4cjn2nE+mi1gckbn2ONUqNZKZU4UwKFLyold4iCNmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.android.lottie\\3.0.6\\com.airbnb.android.lottie.3.0.6.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EazYyCOr6rMyNqnluvd1xS1stU2i8JuRDMWxENqTt50BKW+Y9Z02HzT7/fhE5XgwSEtbm71a4+SPgdgGFzCEXA==",
+  "dgSpecHash": "27hhnU8fAXrW1q6m5yrR5UlxxZNngrT2+3GlRrP15wrzVXFYuq40gi2fitFcy+Qb3zgA8J1lChhjlxtZSmqLNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
+  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
