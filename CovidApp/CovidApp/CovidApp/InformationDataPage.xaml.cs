@@ -1,8 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +17,7 @@ namespace CovidApp
     public partial class InformationDataPage : ContentPage
     {
 
-        List<CoronavirusDataAllCountries> coronavirusDataAllCountries = new List<CoronavirusDataAllCountries>();
+        public static List<CoronavirusDataAllCountries> coronavirusDataAllCountries = new List<CoronavirusDataAllCountries>();
 
         public InformationDataPage()
         {
@@ -40,10 +42,22 @@ namespace CovidApp
                 coronavirusDataAllCountries.Add(coronavirusData);
             }
 
-            carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
+            //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
+            collectionView.ItemsSource = coronavirusDataAllCountries;
+        }
+
+        private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            collectionView.ItemsSource = GetSearchResults(searchBar.Text);
+        }
+
+        public static List<CoronavirusDataAllCountries> GetSearchResults(string queryString)
+        {
+            var normalizedQuery = queryString?.ToLower() ?? "";
+            return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
     }
-
+    
     public class CoronavirusDataAllCountries
     {
         public string country { get; set; }

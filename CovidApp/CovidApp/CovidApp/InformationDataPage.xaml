@@ -7,103 +7,101 @@
              x:Class="CovidApp.InformationDataPage"
              Title="Statistics">
     <ContentPage.Content>
-        
-        <CarouselView  x:Name="carouselCollectionView" ItemsSource="{Binding coronavirusDataAllCountries}"
-                       PeekAreaInsets="10">
-            
-            <CarouselView.ItemsLayout>
-                
-                <LinearItemsLayout Orientation="Vertical"  ItemSpacing="10"/>
-                
-            </CarouselView.ItemsLayout>
 
-            <CarouselView.ItemTemplate>
-
-                <DataTemplate>
-
-                    <StackLayout>
-
-                        <Frame HasShadow="True"
-                       BorderColor="DarkGray"
-                       CornerRadius="5"
-                               BackgroundColor="Transparent"
-                       Margin="10"
-                       HeightRequest="200"
-                       HorizontalOptions="Center"
-                       VerticalOptions="CenterAndExpand">
-                            
-                            <StackLayout>
-                                
-                                <Label Text="{Binding country}"
-                              
+        <StackLayout>
+            <SearchBar x:Name="searchBar" Placeholder="Find specific country..." PlaceholderColor="WhiteSmoke" TextChanged="SearchBar_TextChanged" TextColor="White" />
+            <CollectionView ItemsSource="{Binding coronavirusDataAllCountries}" x:Name="collectionView" >
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="{Binding country}"
                                    TextColor="{StaticResource labelColor}"
-                                   FontSize="Medium"
+                                   FontSize="Large"
                                    FontAttributes="Bold"
-                                   MaxLines="5"
-                                   HorizontalOptions="Center"
-                                   VerticalOptions="Center" 
-                                />
-
-                                <!--<Image Source="{Binding ImageUrl}"
-                                    Aspect="AspectFill"
-                                    HeightRequest="150"
-                                    WidthRequest="150"
-                                    HorizontalOptions="Center" />-->
-
-                                <!--<forms:AnimationView 
-	                               x:Name="animationView" 
-	                               Animation="LottieLogo1.json" 
-	                                Loop="True" 
-	                                 AutoPlay="True"
-                                      HorizontalOptions="Center"
-                                        VerticalOptions="Center"/>-->
-                                <Label Text="Confirmed:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
-
-                                <Label Text="{Binding confirmed}"
-                                       TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
-                               HorizontalOptions="Center"
-                               MaxLines="1"
-                                       FontSize="Body"
-                               LineBreakMode="TailTruncation" 
-                                       />
-
-                                <Label Text="Recovered:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
-
-                                <Label Text="{Binding recovered}"
-                                       TextColor="{StaticResource labelColor}"
-                                       FontAttributes="Italic"
-                                       HorizontalOptions="Center"
-                                       MaxLines="1"
-                                       FontSize="Body"
-                                       LineBreakMode="TailTruncation"
-                                />
-
-                                <Label Text="Deaths:" TextColor="{StaticResource labelColor}" FontAttributes="Bold"/>
-
-                                <Label Text="{Binding deaths}"
-                                       TextColor="{StaticResource labelColor}"
-                                       FontAttributes="Italic"
-                                       HorizontalOptions="Center"
-                                       MaxLines="1"
-                                       FontSize="Body"
-                                       LineBreakMode="TailTruncation" 
-                                />
-
-
-
-                            </StackLayout>
-                            
-                        </Frame>
-                        
-                    </StackLayout>
+                               Grid.RowSpan="2"
+                               Grid.ColumnSpan="7"
+                               
+                               
+                         />
+                        <Label Grid.Column="0"
+                           TextColor="{StaticResource labelColor}"
+                       Text="Confirmed:"
+                               FontSize="Medium"
+                       FontAttributes="Italic"
+                           Grid.Row="1"
+                               Grid.ColumnSpan="2"
+                          
+                     />
                     
-                </DataTemplate>
-                
-            </CarouselView.ItemTemplate>
-            
-        </CarouselView>
-        
+                    
+                    <Label Grid.Column="2"
+                           TextColor="{StaticResource labelColor}"
+                       Text="{Binding confirmed}"
+                           FontSize="Medium"
+                       FontAttributes="Italic"
+                           Grid.Row="1"
+                           Grid.ColumnSpan="4"
+                          
+                     />
+
+                        <Label Grid.Column="0"
+                           TextColor="{StaticResource labelColor}"
+                       Text="Recovered:"
+                               FontSize="Medium"
+                       FontAttributes="Italic"
+                           Grid.Row="2"
+                               Grid.ColumnSpan="2"
+                          
+                     />
+
+                        <Label Grid.Row="2"
+                       Grid.Column="2"
+                               TextColor="{StaticResource labelColor}"
+                               FontSize="Medium"
+                       Text="{Binding recovered}"
+                       FontAttributes="Italic"
+                       VerticalOptions="End"
+                               Grid.ColumnSpan="4"/>
+
+                        <Label Grid.Column="0"
+                           TextColor="{StaticResource labelColor}"
+                       Text="Deaths:"
+                               FontSize="Medium"
+                       FontAttributes="Italic"
+                           Grid.Row="3"
+                               Grid.ColumnSpan="2"
+                          
+                     />
+                    
+                        <Label Grid.Row="3"
+                       Grid.Column="2"
+                               Grid.ColumnSpan="4"
+                               FontSize="Medium"
+                       Text="{Binding deaths}"
+                               TextColor="{StaticResource labelColor}"
+                       FontAttributes="Italic"
+                       VerticalOptions="End" />
+
+                    </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        </CollectionView>
+        </StackLayout>
     </ContentPage.Content>
     
 </ContentPage>
