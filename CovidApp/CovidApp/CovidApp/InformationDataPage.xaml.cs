@@ -70,13 +70,7 @@ namespace CovidApp
             return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
 
-        private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-          
-            await Navigation.PushModalAsync(new ModalDetailsPage());
-            
-           
-        }
+       
     }
 
     public class CoronavirusDataAllCountries

@@ -23,7 +23,7 @@
     <EmbeddedResource Update="InformationDataPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ModalDetailsPage.xaml">
+    <EmbeddedResource Update="MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="SurvivalGuidePage.xaml">
