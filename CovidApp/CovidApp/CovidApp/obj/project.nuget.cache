@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "27hhnU8fAXrW1q6m5yrR5UlxxZNngrT2+3GlRrP15wrzVXFYuq40gi2fitFcy+Qb3zgA8J1lChhjlxtZSmqLNg==",
+  "dgSpecHash": "PPXXJFmnxR7mJSXhSScg+C/W9kcmV9JO5dD6CDsqFYB2K+ZWZFAd9KpHCupDujb1L6qMfyNc/nFNN8xg0ZHzEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.0\\com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

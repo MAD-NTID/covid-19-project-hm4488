@@ -1,6 +1,9 @@
 CovidApp.Droid.MainActivity, CovidApp.Android;crc64773028b116c519f6.MainActivity
 CovidApp.Droid.MainActivity;crc64773028b116c519f6.MainActivity
 covidapp.droid.MainActivity;crc64773028b116c519f6.MainActivity
+CovidApp.Droid.SplashActivity, CovidApp.Android;crc64773028b116c519f6.SplashActivity
+CovidApp.Droid.SplashActivity;crc64773028b116c519f6.SplashActivity
+covidapp.droid.SplashActivity;crc64773028b116c519f6.SplashActivity
 Com.Airbnb.Lottie.LottieAnimationView+ImageAssetDelegateImpl, Lottie.Android;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl
 Com.Airbnb.Lottie.LottieAnimationView.ImageAssetDelegateImpl;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl
 com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl;com.airbnb.lottie.LottieAnimationView_ImageAssetDelegateImpl

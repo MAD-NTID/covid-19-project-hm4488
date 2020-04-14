@@ -20,11 +20,17 @@ namespace CovidApp
         public InformationDataPage()
         {
             InitializeComponent();
+           
             var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
+            
             var request = new RestRequest(Method.GET);
+            
             request.AddHeader("x-rapidapi-host", "covid-19-data.p.rapidapi.com");
+            
             request.AddHeader("x-rapidapi-key", "54c7eaa2camsh3bfb99864b4ad3ep111186jsn385646837c47");
+            
             IRestResponse response = client.Execute(request);
+            
             var cData = JsonConvert.DeserializeObject<System.Collections.Generic.List<CoronavirusDataAllCountries>>(response.Content);
 
             for (int i = 0; i < cData.Count; i++)
@@ -51,11 +57,17 @@ namespace CovidApp
         public CoronavirusDataAllCountries(string _country, int _confirmed, int _recovered, int _critical, int _deaths, double? _latitude, double? _longitude)
         {
             country = _country;
+           
             confirmed = _confirmed;
+            
             recovered = _recovered;
+            
             critical = _critical;
+            
             deaths = _deaths;
+            
             latitude = _latitude;
+            
             longitude = _longitude;
         }
     }

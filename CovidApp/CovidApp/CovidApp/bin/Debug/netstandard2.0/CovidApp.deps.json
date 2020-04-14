@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "CovidApp/1.0.0": {
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
           "MagicGradients": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
@@ -21,14 +21,14 @@
           "CovidApp.dll": {}
         }
       },
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
         "dependencies": {
           "Xamarin.Forms": "4.5.0.617"
         },
         "runtime": {
           "lib/netstandard2.0/Lottie.Forms.dll": {
-            "assemblyVersion": "3.0.3.0",
-            "fileVersion": "3.0.3.0"
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -129,12 +129,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uwLymybcQDdobg//kyeqH6zEuPuVGBDULVYC7Cv9OQGLfCdqsmcYNEprs7z02ptx6NgolFeAT1J/Imr2P097qA==",
-      "path": "com.airbnb.xamarin.forms.lottie/3.0.4",
-      "hashPath": "com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512"
+      "sha512": "sha512-SjyXwM89wbSs8bpJ0o44TN3PCZp5ORqeFq00TlJTOljypME06KPka144h60MVmrbJ+Cz6IbeMA7kfCFKPGe7QA==",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.0",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512"
     },
     "MagicGradients/1.0.0": {
       "type": "package",
