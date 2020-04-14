@@ -7,16 +7,19 @@
              x:Class="CovidApp.App">
     <Application.Resources>
         <Color x:Key="labelColor">#ffffff</Color>
-
+        <Style TargetType="Label" x:Key="labelStyleForAll">
+            <Setter Property="FontAttributes" Value="Bold, Italic" />
+        </Style>
         <ControlTemplate x:Key="PageWithGradient">
             <Grid>
                 <magic:GradientView VerticalOptions="FillAndExpand" >
                     <magic:GradientView.GradientSource>
                         <magic:CssGradientSource>
                             <x:String>
-                                <![CDATA[
+                                <!--<![CDATA[
                                         linear-gradient(45deg, rgb(149, 10, 155) 0%, rgb(149, 10, 155) 9%,rgb(120, 16, 136) 9%, rgb(120, 16, 136) 13%,rgb(178, 3, 174) 13%, rgb(178, 3, 174) 32%,rgb(91, 23, 117) 32%, rgb(91, 23, 117) 42%,rgb(32, 36, 79) 42%, rgb(32, 36, 79) 46%,rgb(61, 30, 98) 46%, rgb(61, 30, 98) 70%,rgb(3, 43, 60) 70%, rgb(3, 43, 60) 100%)
-                                    ]]>
+                                    ]]>-->
+                                <![CDATA[radial-gradient(circle at 25% 54%, rgba(18, 18, 18,0.06) 0%, rgba(18, 18, 18,0.06) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 67% 98%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(169, 169, 169,0.06) 0%, rgba(169, 169, 169,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 46% 37%, rgba(187, 187, 187,0.06) 0%, rgba(187, 187, 187,0.06) 47%,transparent 47%, transparent 100%),radial-gradient(circle at 38% 35%, rgba(57, 57, 57,0.06) 0%, rgba(57, 57, 57,0.06) 99%,transparent 99%, transparent 100%),radial-gradient(circle at 46% 86%, rgba(100, 100, 100,0.06) 0%, rgba(100, 100, 100,0.06) 60%,transparent 60%, transparent 100%),linear-gradient(90deg, rgb(57, 8, 200),rgb(240, 145, 202))]]>
                             </x:String>
                         </magic:CssGradientSource>
                     </magic:GradientView.GradientSource>
@@ -33,9 +36,10 @@
                                 <magic:GradientView.GradientSource>
                                     <magic:CssGradientSource>
                                         <x:String>
-                                            <![CDATA[
+                                          <!--  <![CDATA[
                                         linear-gradient(45deg, rgb(149, 10, 155) 0%, rgb(149, 10, 155) 9%,rgb(120, 16, 136) 9%, rgb(120, 16, 136) 13%,rgb(178, 3, 174) 13%, rgb(178, 3, 174) 32%,rgb(91, 23, 117) 32%, rgb(91, 23, 117) 42%,rgb(32, 36, 79) 42%, rgb(32, 36, 79) 46%,rgb(61, 30, 98) 46%, rgb(61, 30, 98) 70%,rgb(3, 43, 60) 70%, rgb(3, 43, 60) 100%)
-                                    ]]>
+                                    ]]>-->
+                                            <![CDATA[radial-gradient(circle at 25% 54%, rgba(18, 18, 18,0.06) 0%, rgba(18, 18, 18,0.06) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 67% 98%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(169, 169, 169,0.06) 0%, rgba(169, 169, 169,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 46% 37%, rgba(187, 187, 187,0.06) 0%, rgba(187, 187, 187,0.06) 47%,transparent 47%, transparent 100%),radial-gradient(circle at 38% 35%, rgba(57, 57, 57,0.06) 0%, rgba(57, 57, 57,0.06) 99%,transparent 99%, transparent 100%),radial-gradient(circle at 46% 86%, rgba(100, 100, 100,0.06) 0%, rgba(100, 100, 100,0.06) 60%,transparent 60%, transparent 100%),linear-gradient(90deg, rgb(57, 8, 200),rgb(240, 145, 202))]]>
                                         </x:String>
                                     </magic:CssGradientSource>
                                 </magic:GradientView.GradientSource>

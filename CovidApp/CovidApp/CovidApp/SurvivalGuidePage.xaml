@@ -23,10 +23,10 @@
                 <StackLayout>
                     
                     <Label Text="Clean your hands!!"
-                                 
+                                 TextDecorations="Underline"
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
-                                       FontAttributes="Bold"
+                                      Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
@@ -50,14 +50,15 @@
                                FontAttributes="Italic"
                                HorizontalOptions="Center"
                                MaxLines="3"
+                           Style="{StaticResource Key=labelStyleForAll}"
                                        FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
                     <Label Text="If you have fever, cough and difficulty breathing, seek medical care early!!"
-                                 
+                                 TextDecorations="Underline"
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
-                                       FontAttributes="Bold"
+                                       Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
@@ -79,10 +80,11 @@
 
                     <Label Text="Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Style="{StaticResource Key=labelStyleForAll}"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
+                           
                                LineBreakMode="TailTruncation"
                     />
 
@@ -90,10 +92,11 @@
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
-                                       FontAttributes="Bold"
+                                       Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
+                           TextDecorations="Underline"
                     />
 
 
@@ -111,7 +114,7 @@
 
                     <Label Text="Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Style="{StaticResource Key=labelStyleForAll}"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
@@ -119,10 +122,10 @@
                     />
 
                     <Label Text="Try to stay home!!"
-                                 
+                                 TextDecorations="Underline"
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
-                                       FontAttributes="Bold"
+                                       Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
@@ -143,21 +146,23 @@
 
                     <Label Text="Staying at home reduces the spread of coronavirus and reduces the risk of getting infected as well as spread to other people."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Style="{StaticResource Key=labelStyleForAll}"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
                                LineBreakMode="TailTruncation" 
+                           
                     />
 
                     <Label Text="Avoid close contact!!"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
-                                       FontAttributes="Bold"
+                                       Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
+                           TextDecorations="Underline"
                     />
 
 
@@ -175,7 +180,7 @@
 
                     <Label Text="Avoid close contatc with people who are sick, maintain 3 feet/6 meters away from other people."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Style="{StaticResource Key=labelStyleForAll}"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"

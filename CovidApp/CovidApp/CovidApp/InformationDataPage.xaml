@@ -6,11 +6,12 @@
              mc:Ignorable="d"
              x:Class="CovidApp.InformationDataPage"
              Title="Statistics">
+    
     <ContentPage.Content>
 
         <StackLayout>
             <SearchBar x:Name="searchBar" Placeholder="Find specific country..." PlaceholderColor="WhiteSmoke" TextChanged="SearchBar_TextChanged" TextColor="White" />
-            <CollectionView ItemsSource="{Binding coronavirusDataAllCountries}" x:Name="collectionView" >
+            <CollectionView ItemsSource="{Binding coronavirusDataAllCountries}" x:Name="collectionView" SelectionMode="None" SelectionChanged="collectionView_SelectionChanged" SelectedItem="{Binding coronavirusDataAllCountries, Mode=TwoWay} ">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid Padding="10">
@@ -29,23 +30,26 @@
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="{Binding country}"
+                            
+                              <Label Text="{Binding country}"
                                    TextColor="{StaticResource labelColor}"
                                    FontSize="Large"
-                                   FontAttributes="Bold"
+                                   
                                Grid.RowSpan="2"
                                Grid.ColumnSpan="7"
+                               Style="{StaticResource Key=labelStyleForAll}"
+                                     TextDecorations="Underline"
                                
-                               
-                         />
-                        <Label Grid.Column="0"
+                             />
+                            
+                            <Label Grid.Column="0"
                            TextColor="{StaticResource labelColor}"
                        Text="Confirmed:"
                                FontSize="Medium"
-                       FontAttributes="Italic"
+                       
                            Grid.Row="1"
                                Grid.ColumnSpan="2"
-                          
+                          Style="{StaticResource Key=labelStyleForAll}"
                      />
                     
                     
@@ -53,20 +57,20 @@
                            TextColor="{StaticResource labelColor}"
                        Text="{Binding confirmed}"
                            FontSize="Medium"
-                       FontAttributes="Italic"
+                       
                            Grid.Row="1"
                            Grid.ColumnSpan="4"
-                          
+                          Style="{StaticResource Key=labelStyleForAll}"
                      />
 
                         <Label Grid.Column="0"
                            TextColor="{StaticResource labelColor}"
                        Text="Recovered:"
                                FontSize="Medium"
-                       FontAttributes="Italic"
+                      
                            Grid.Row="2"
                                Grid.ColumnSpan="2"
-                          
+                          Style="{StaticResource Key=labelStyleForAll}"
                      />
 
                         <Label Grid.Row="2"
@@ -74,15 +78,17 @@
                                TextColor="{StaticResource labelColor}"
                                FontSize="Medium"
                        Text="{Binding recovered}"
-                       FontAttributes="Italic"
+                       
                        VerticalOptions="End"
-                               Grid.ColumnSpan="4"/>
+                               Grid.ColumnSpan="4"
+                               Style="{StaticResource Key=labelStyleForAll}"
+                               />
 
                         <Label Grid.Column="0"
                            TextColor="{StaticResource labelColor}"
                        Text="Deaths:"
                                FontSize="Medium"
-                       FontAttributes="Italic"
+                       Style="{StaticResource Key=labelStyleForAll}"
                            Grid.Row="3"
                                Grid.ColumnSpan="2"
                           
@@ -94,7 +100,7 @@
                                FontSize="Medium"
                        Text="{Binding deaths}"
                                TextColor="{StaticResource labelColor}"
-                       FontAttributes="Italic"
+                       Style="{StaticResource Key=labelStyleForAll}"
                        VerticalOptions="End" />
 
                     </Grid>
@@ -102,6 +108,7 @@
         </CollectionView.ItemTemplate>
         </CollectionView>
         </StackLayout>
+        
     </ContentPage.Content>
     
 </ContentPage>

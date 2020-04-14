@@ -19,20 +19,32 @@ namespace CovidApp
 
         public static List<CoronavirusDataAllCountries> coronavirusDataAllCountries = new List<CoronavirusDataAllCountries>();
 
-        public InformationDataPage()
+        public  InformationDataPage()
         {
             InitializeComponent();
-           
-            var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
+            ApistuffAsync();
+
+
+            //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
+            collectionView.ItemsSource = coronavirusDataAllCountries;
+
             
+            
+        }
+
+        
+        public void ApistuffAsync()
+        {
+           var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
+
             var request = new RestRequest(Method.GET);
-            
+
             request.AddHeader("x-rapidapi-host", "covid-19-data.p.rapidapi.com");
-            
+
             request.AddHeader("x-rapidapi-key", "54c7eaa2camsh3bfb99864b4ad3ep111186jsn385646837c47");
-            
-            IRestResponse response = client.Execute(request);
-            
+
+            IRestResponse response =  client.Execute(request);
+
             var cData = JsonConvert.DeserializeObject<System.Collections.Generic.List<CoronavirusDataAllCountries>>(response.Content);
 
             for (int i = 0; i < cData.Count; i++)
@@ -42,10 +54,11 @@ namespace CovidApp
                 coronavirusDataAllCountries.Add(coronavirusData);
             }
 
-            //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
-            collectionView.ItemsSource = coronavirusDataAllCountries;
+            
+            
+           
+             
         }
-
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             collectionView.ItemsSource = GetSearchResults(searchBar.Text);
@@ -56,8 +69,16 @@ namespace CovidApp
             var normalizedQuery = queryString?.ToLower() ?? "";
             return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
+
+        private async void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+          
+            await Navigation.PushModalAsync(new ModalDetailsPage());
+            
+           
+        }
     }
-    
+
     public class CoronavirusDataAllCountries
     {
         public string country { get; set; }
