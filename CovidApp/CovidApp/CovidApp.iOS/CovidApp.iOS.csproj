@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6692FCAC-A939-418E-8FDE-A8F76F20D6A1}</ProjectGuid>
+    <ProjectGuid>{4667DA9B-2C5E-4199-901B-F8110A23DC67}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
-      <Version>3.0.0</Version>
+      <Version>3.0.4</Version>
     </PackageReference>
     <PackageReference Include="MagicGradients">
       <Version>1.0.0</Version>
@@ -132,16 +132,13 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
-    <PackageReference Include="Plugin.Multilingual">
-      <Version>1.0.2</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\CovidApp\CovidApp.csproj">
-      <Project>{4492946D-1EC7-4CF4-AC38-EE0D06E46D05}</Project>
+      <Project>{4A82FAB4-99F2-4FED-A63B-A9D337F4FCB5}</Project>
       <Name>CovidApp</Name>
     </ProjectReference>
   </ItemGroup>

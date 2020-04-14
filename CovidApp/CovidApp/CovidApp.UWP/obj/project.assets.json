@@ -2,30 +2,16 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -278,17 +264,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        }
-      },
       "RestSharp/106.10.1": {
         "type": "package",
         "compile": {
@@ -494,7 +469,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -557,10 +532,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -574,30 +548,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -849,17 +809,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -1181,7 +1130,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -1233,10 +1182,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -1250,30 +1198,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -1525,17 +1459,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -1858,7 +1781,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -1910,10 +1833,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -1927,30 +1849,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -2202,17 +2110,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -2527,7 +2424,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -2576,10 +2473,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -2593,30 +2489,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -2868,17 +2750,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -3200,7 +3071,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -3252,10 +3123,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -3269,30 +3139,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -3544,17 +3400,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -3877,7 +3722,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -3929,10 +3774,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -3946,30 +3790,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -4221,17 +4051,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -4553,7 +4372,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -4605,10 +4424,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -4622,30 +4440,16 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
         "type": "package",
         "dependencies": {
-          "LottieUWP": "2.8.2",
-          "Xamarin.Forms": "3.6.0.539721"
+          "Xamarin.Forms": "4.2.0.815419"
         },
         "compile": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         },
         "runtime": {
-          "lib/uap10.0.16299/Lottie.Forms.dll": {}
-        }
-      },
-      "LottieUWP/2.8.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "Win2D.uwp": "1.21.0"
-        },
-        "compile": {
-          "lib/uap10.0/LottieUWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LottieUWP.dll": {}
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
         }
       },
       "MagicGradients/1.0.0": {
@@ -4897,17 +4701,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "Plugin.Multilingual/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
-        },
-        "runtime": {
-          "lib/UAP10/Plugin.Multilingual.Abstractions.dll": {},
-          "lib/UAP10/Plugin.Multilingual.dll": {}
         }
       },
       "RestSharp/106.10.1": {
@@ -5230,7 +5023,7 @@
           "lib/uap10.0/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Win2D.uwp/1.21.0": {
+      "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
@@ -5282,10 +5075,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.0",
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Plugin.Multilingual": "1.0.2",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
           "Xamarin.Forms": "4.5.0.617"
@@ -5300,26 +5092,30 @@
     }
   },
   "libraries": {
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {
-      "sha512": "SjyXwM89wbSs8bpJ0o44TN3PCZp5ORqeFq00TlJTOljypME06KPka144h60MVmrbJ+Cz6IbeMA7kfCFKPGe7QA==",
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
+      "sha512": "uwLymybcQDdobg//kyeqH6zEuPuVGBDULVYC7Cv9OQGLfCdqsmcYNEprs7z02ptx6NgolFeAT1J/Imr2P097qA==",
       "type": "package",
-      "path": "com.airbnb.xamarin.forms.lottie/3.0.0",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
+        "LICENSE",
+        "com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
         "com.airbnb.xamarin.forms.lottie.nuspec",
+        "icon.png",
         "lib/monoandroid90/Lottie.Forms.dll",
-        "lib/monoandroid90/Lottie.Forms.dll.mdb",
         "lib/monoandroid90/Lottie.Forms.pdb",
         "lib/monoandroid90/Lottie.Forms.xml",
         "lib/netstandard2.0/Lottie.Forms.dll",
         "lib/netstandard2.0/Lottie.Forms.pdb",
         "lib/netstandard2.0/Lottie.Forms.xml",
-        "lib/uap10.0.16299/Lottie.Forms.dll",
-        "lib/uap10.0.16299/Lottie.Forms.pdb",
-        "lib/uap10.0.16299/Lottie.Forms.pri",
-        "lib/uap10.0.16299/Lottie.Forms.xml",
+        "lib/tizen40/Lottie.Forms.dll",
+        "lib/tizen40/Lottie.Forms.pdb",
+        "lib/tizen40/Lottie.Forms.xml",
+        "lib/uap10.0.18362/Lottie.Forms.dll",
+        "lib/uap10.0.18362/Lottie.Forms.pdb",
+        "lib/uap10.0.18362/Lottie.Forms.pri",
+        "lib/uap10.0.18362/Lottie.Forms.xml",
         "lib/xamarinios10/Lottie.Forms.dll",
         "lib/xamarinios10/Lottie.Forms.pdb",
         "lib/xamarinios10/Lottie.Forms.xml",
@@ -5327,18 +5123,6 @@
         "lib/xamarinmac20/Lottie.Forms.pdb",
         "lib/xamarinmac20/Lottie.Forms.xml",
         "readme.txt"
-      ]
-    },
-    "LottieUWP/2.8.2": {
-      "sha512": "lhfEzSIFKJUb/SqW2oO+X/tC4IfjJRb41D5Q7SUxPFRvIFEt8u8ICCGJqqD79NR1IwyIM/wonb79BaPoc91VHw==",
-      "type": "package",
-      "path": "lottieuwp/2.8.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/uap10.0/LottieUWP.dll",
-        "lottieuwp.2.8.2.nupkg.sha512",
-        "lottieuwp.nuspec"
       ]
     },
     "MagicGradients/1.0.0": {
@@ -5924,65 +5708,6 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "Plugin.Multilingual/1.0.2": {
-      "sha512": "aDPTIQCOCGxCvcFs98nSswcFTHfHUpUSiSltobV5NoRELUQREl4n95dLZSuqey9cIb5G2Ni53YDG6KCnD9ZWYw==",
-      "type": "package",
-      "path": "plugin.multilingual/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/net45/Helpers/TranslateExtension.txt.pp",
-        "content/netstandard1.0/Helpers/TranslateExtension.txt.pp",
-        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.Multilingual.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.Multilingual.XML",
-        "lib/MonoAndroid10/Plugin.Multilingual.dll",
-        "lib/MonoAndroid10/Plugin.Multilingual.pdb",
-        "lib/UAP10/Plugin.Multilingual.Abstractions.dll",
-        "lib/UAP10/Plugin.Multilingual.Abstractions.pdb",
-        "lib/UAP10/Plugin.Multilingual.Abstractions.xml",
-        "lib/UAP10/Plugin.Multilingual.XML",
-        "lib/UAP10/Plugin.Multilingual.dll",
-        "lib/UAP10/Plugin.Multilingual.pdb",
-        "lib/UAP10/Plugin.Multilingual.pri",
-        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.Multilingual.Abstractions.xml",
-        "lib/Xamarin.Mac20/Plugin.Multilingual.dll",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.dll.mdb",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.XML",
-        "lib/Xamarin.iOS10/Plugin.Multilingual.dll",
-        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll",
-        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.dll.mdb",
-        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.pdb",
-        "lib/XamarinTVOS/Plugin.Multilingual.Abstractions.xml",
-        "lib/XamarinTVOS/Plugin.Multilingual.dll",
-        "lib/XamarinTVOS/Plugin.Multilingual.pdb",
-        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll",
-        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.dll.mdb",
-        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.pdb",
-        "lib/XamarinWatchOS/Plugin.Multilingual.Abstractions.xml",
-        "lib/XamarinWatchOS/Plugin.Multilingual.dll",
-        "lib/XamarinWatchOS/Plugin.Multilingual.pdb",
-        "lib/net45/Plugin.Multilingual.Abstractions.dll",
-        "lib/net45/Plugin.Multilingual.Abstractions.pdb",
-        "lib/net45/Plugin.Multilingual.Abstractions.xml",
-        "lib/net45/Plugin.Multilingual.dll",
-        "lib/net45/Plugin.Multilingual.pdb",
-        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.Multilingual.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.Multilingual.deps.json",
-        "lib/netstandard1.0/Plugin.Multilingual.dll",
-        "lib/netstandard1.0/Plugin.Multilingual.xml",
-        "plugin.multilingual.1.0.2.nupkg.sha512",
-        "plugin.multilingual.nuspec"
       ]
     },
     "RestSharp/106.10.1": {
@@ -10025,10 +9750,10 @@
         "skiasharp.views.forms.nuspec"
       ]
     },
-    "Win2D.uwp/1.21.0": {
-      "sha512": "4ddgs6Mt4cDVOPcKE+gV02Rn8G9nhp8C9S94A/msxULD2ysq6Q/z3CmeyATJhJNVfhumWUaXzx0B3v39vB5A4Q==",
+    "Win2D.uwp/1.20.0": {
+      "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
       "type": "package",
-      "path": "win2d.uwp/1.21.0",
+      "path": "win2d.uwp/1.20.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10041,7 +9766,7 @@
         "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll",
         "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll",
         "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll",
-        "win2d.uwp.1.21.0.nupkg.sha512",
+        "win2d.uwp.1.20.0.nupkg.sha512",
         "win2d.uwp.nuspec"
       ]
     },
@@ -10413,12 +10138,11 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
-      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.0",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.4",
       "CovidApp >= 1.0.0",
       "MagicGradients >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
       "Newtonsoft.Json >= 12.0.3",
-      "Plugin.Multilingual >= 1.0.2",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.5.0.617"
     ]
@@ -10431,11 +10155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
       "projectName": "CovidApp.UWP",
-      "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
+      "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
       "packagesPath": "C:\\Users\\harsh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10457,8 +10181,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
-              "projectPath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
+            "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj": {
+              "projectPath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp\\CovidApp.csproj"
             }
           }
         }
@@ -10469,7 +10193,7 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": {
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[3.0.4, )"
           },
           "MagicGradients": {
             "target": "Package",
@@ -10482,10 +10206,6 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
-          },
-          "Plugin.Multilingual": {
-            "target": "Package",
-            "version": "[1.0.2, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

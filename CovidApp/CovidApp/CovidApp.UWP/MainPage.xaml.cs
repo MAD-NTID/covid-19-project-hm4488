@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lottie.Forms.UWP.Renderers;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,7 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+ 
 namespace CovidApp.UWP
 {
     public sealed partial class MainPage
@@ -20,7 +21,7 @@ namespace CovidApp.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            AnimationViewRenderer.Init();
             LoadApplication(new CovidApp.App());
         }
     }

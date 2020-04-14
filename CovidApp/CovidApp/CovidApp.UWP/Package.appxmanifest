@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3f2aa7ec-e184-4d0a-be62-0687160ab3c8"
-    Publisher="CN=9105fa6a-0af9-41f0-b74c-84addb46f71d"
+    Name="519cc597-c1e9-4858-b387-7e08d5197c22"
+    Publisher="CN=8fdea8ef-0856-424a-b8f6-59a924d6b597"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>CovidApp.UWP</DisplayName>
-    <PublisherDisplayName>9105fa6a-0af9-41f0-b74c-84addb46f71d</PublisherDisplayName>
+    <PublisherDisplayName>8fdea8ef-0856-424a-b8f6-59a924d6b597</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

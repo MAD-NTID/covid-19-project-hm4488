@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A7C960ED-0B84-41F1-82E3-EEF2F02706E6}</ProjectGuid>
+    <ProjectGuid>{2A846930-9315-4BE1-9A21-87FC31607A36}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -55,16 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
-      <Version>3.0.0</Version>
+      <Version>3.0.4</Version>
     </PackageReference>
     <PackageReference Include="MagicGradients">
       <Version>1.0.0</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
-    </PackageReference>
-    <PackageReference Include="Plugin.Multilingual">
-      <Version>1.0.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
@@ -76,10 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\stay_safe_home.json" />
-    <AndroidAsset Include="Assets\seek_medical_care.json" />
-    <AndroidAsset Include="Assets\avoid_touching_your_face.json" />
     <AndroidAsset Include="Assets\wash_your_hands.json" />
-    <AndroidAsset Include="Assets\cover_your_cough.json" />
+    <AndroidAsset Include="Assets\avoid_touching_your_face.json" />
+    <AndroidAsset Include="Assets\seek_medical_care.json" />
     <AndroidAsset Include="Assets\avoid_close_contact.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -108,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CovidApp\CovidApp.csproj">
-      <Project>{4492946D-1EC7-4CF4-AC38-EE0D06E46D05}</Project>
+      <Project>{4A82FAB4-99F2-4FED-A63B-A9D337F4FCB5}</Project>
       <Name>CovidApp</Name>
     </ProjectReference>
   </ItemGroup>

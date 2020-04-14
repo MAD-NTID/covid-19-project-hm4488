@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{F66CC75E-4930-47FA-B7FE-A6AE88F564E0}</ProjectGuid>
+    <ProjectGuid>{A1D0E622-E8D8-4981-8290-2D61C5668423}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CovidApp.UWP</RootNamespace>
@@ -144,7 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
-      <Version>3.0.0</Version>
+      <Version>3.0.4</Version>
     </PackageReference>
     <PackageReference Include="MagicGradients">
       <Version>1.0.0</Version>
@@ -152,18 +152,22 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
-    <PackageReference Include="Plugin.Multilingual">
-      <Version>1.0.2</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CovidApp\CovidApp.csproj">
-      <Project>{4492946D-1EC7-4CF4-AC38-EE0D06E46D05}</Project>
+      <Project>{4A82FAB4-99F2-4FED-A63B-A9D337F4FCB5}</Project>
       <Name>CovidApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\avoid_close_contact.json" />
+    <None Include="Assets\avoid_touching_your_face.json" />
+    <None Include="Assets\seek_medical_care.json" />
+    <None Include="Assets\stay_safe_home.json" />
+    <None Include="Assets\wash_your_hands.json" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

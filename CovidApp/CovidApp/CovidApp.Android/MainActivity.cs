@@ -6,7 +6,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Lottie.Forms;
 using Lottie.Forms.Droid;
 
 namespace CovidApp.Droid

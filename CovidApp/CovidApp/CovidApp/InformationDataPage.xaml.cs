@@ -14,8 +14,9 @@ namespace CovidApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class InformationDataPage : ContentPage
     {
+
         List<CoronavirusDataAllCountries> coronavirusDataAllCountries = new List<CoronavirusDataAllCountries>();
-        
+
         public InformationDataPage()
         {
             InitializeComponent();

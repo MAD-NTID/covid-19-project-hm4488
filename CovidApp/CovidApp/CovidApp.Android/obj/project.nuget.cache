@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WT5aWyGFNEjQSrAjOPbLHKhsOrrSWbHut3Xb0I7eQlR6T4gxSJk0J3534LMly+sVyUTtguqmbZqKAQAyXd4XZA==",
+  "dgSpecHash": "Sp9kCffkGEwWVWO3OqiLRxREeEILWTRa+45fHyQUNvFshYbdDzIScoL7+4DCp3wJaiR3qPJ/5jN3CX1dochD1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\harsh\\source\\repos\\CovidApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.android.lottie\\3.0.3\\com.airbnb.android.lottie.3.0.3.nupkg.sha512",
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.0\\com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.android.lottie\\3.0.6\\com.airbnb.android.lottie.3.0.6.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\harsh\\.nuget\\packages\\plugin.multilingual\\1.0.2\\plugin.multilingual.1.0.2.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\restsharp\\106.10.1\\restsharp.106.10.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
