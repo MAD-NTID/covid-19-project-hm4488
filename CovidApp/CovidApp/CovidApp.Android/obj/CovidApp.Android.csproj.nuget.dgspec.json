@@ -50,6 +50,14 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -111,6 +119,14 @@
             "MagicGradients": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.7.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

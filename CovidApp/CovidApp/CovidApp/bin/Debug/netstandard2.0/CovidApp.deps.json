@@ -11,6 +11,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
@@ -39,6 +41,31 @@
         },
         "runtime": {
           "lib/netstandard2.0/MagicGradients.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microcharts/0.7.1": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "System.ValueTuple": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.68.0",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "4.5.0.617"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -94,6 +121,7 @@
           }
         }
       },
+      "System.ValueTuple/4.4.0": {},
       "Xamarin.Essentials/1.5.2": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -143,6 +171,20 @@
       "path": "magicgradients/1.0.0",
       "hashPath": "magicgradients.1.0.0.nupkg.sha512"
     },
+    "Microcharts/0.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Py79bYXqvsqthZtk1ChdDhy/n4mb7T2CKjzTVU7ldj4dnjgFC2nbOJMGeAJkDk1lZPoQPSPx3obSq7S29Zrt8g==",
+      "path": "microcharts/0.7.1",
+      "hashPath": "microcharts.0.7.1.nupkg.sha512"
+    },
+    "Microcharts.Forms/0.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/oeY4j/x3I8PY6sNV3B6CHKdvZl3cJHxfkxIKSPaX86bc50mq1C0L+LqVnbRMwMa1PpywPtwL1+aqlKGM8bL3w==",
+      "path": "microcharts.forms/0.7.1",
+      "hashPath": "microcharts.forms.0.7.1.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -191,6 +233,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "path": "system.valuetuple/4.4.0",
+      "hashPath": "system.valuetuple.4.4.0.nupkg.sha512"
     },
     "Xamarin.Essentials/1.5.2": {
       "type": "package",

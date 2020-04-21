@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
@@ -144,6 +152,14 @@
             "MagicGradients": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[0.7.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

@@ -37,6 +37,34 @@
           "lib/netstandard2.0/MagicGradients.dll": {}
         }
       },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -112,6 +140,15 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -252,6 +289,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
@@ -299,6 +338,34 @@
         },
         "runtime": {
           "lib/netstandard2.0/MagicGradients.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -354,6 +421,15 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -494,6 +570,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
@@ -541,6 +619,34 @@
         },
         "runtime": {
           "lib/netstandard2.0/MagicGradients.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -599,6 +705,15 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -739,6 +854,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
@@ -786,6 +903,34 @@
         },
         "runtime": {
           "lib/netstandard2.0/MagicGradients.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -844,6 +989,15 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
       "Xamarin.Essentials/1.5.2": {
         "type": "package",
         "frameworkAssemblies": [
@@ -984,6 +1138,8 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "3.0.4",
           "MagicGradients": "1.0.0",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.3",
           "RestSharp": "106.10.1",
           "Xamarin.Essentials": "1.5.2",
@@ -1066,6 +1222,38 @@
         "lib/netstandard2.0/MagicGradients.dll",
         "magicgradients.1.0.0.nupkg.sha512",
         "magicgradients.nuspec"
+      ]
+    },
+    "Microcharts/0.7.1": {
+      "sha512": "Py79bYXqvsqthZtk1ChdDhy/n4mb7T2CKjzTVU7ldj4dnjgFC2nbOJMGeAJkDk1lZPoQPSPx3obSq7S29Zrt8g==",
+      "type": "package",
+      "path": "microcharts/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.4/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.7.1.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
+    "Microcharts.Forms/0.7.1": {
+      "sha512": "/oeY4j/x3I8PY6sNV3B6CHKdvZl3cJHxfkxIKSPaX86bc50mq1C0L+LqVnbRMwMa1PpywPtwL1+aqlKGM8bL3w==",
+      "type": "package",
+      "path": "microcharts.forms/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.4/Microcharts.Forms.dll",
+        "microcharts.forms.0.7.1.nupkg.sha512",
+        "microcharts.forms.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.3": {
@@ -1219,6 +1407,51 @@
         "lib/uap10.0/SkiaSharp.Views.Forms.xml",
         "skiasharp.views.forms.1.68.0.nupkg.sha512",
         "skiasharp.views.forms.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Xamarin.Essentials/1.5.2": {
@@ -1592,6 +1825,8 @@
       "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.4",
       "CovidApp >= 1.0.0",
       "MagicGradients >= 1.0.0",
+      "Microcharts >= 0.7.1",
+      "Microcharts.Forms >= 0.7.1",
       "Newtonsoft.Json >= 12.0.3",
       "Xamarin.Essentials >= 1.5.2",
       "Xamarin.Forms >= 4.5.0.617"
@@ -1646,6 +1881,14 @@
           "MagicGradients": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "Microcharts": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.7.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

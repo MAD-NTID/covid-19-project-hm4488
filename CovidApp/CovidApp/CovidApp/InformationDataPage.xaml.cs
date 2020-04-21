@@ -22,20 +22,8 @@ namespace CovidApp
         public  InformationDataPage()
         {
             InitializeComponent();
-            ApistuffAsync();
 
-
-            //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
-            collectionView.ItemsSource = coronavirusDataAllCountries;
-
-            
-            
-        }
-
-        
-        public void ApistuffAsync()
-        {
-           var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
+            var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
 
             var request = new RestRequest(Method.GET);
 
@@ -43,9 +31,9 @@ namespace CovidApp
 
             request.AddHeader("x-rapidapi-key", "54c7eaa2camsh3bfb99864b4ad3ep111186jsn385646837c47");
 
-            IRestResponse response =  client.Execute(request);
+            IRestResponse response = client.Execute(request);
 
-            var cData = JsonConvert.DeserializeObject<System.Collections.Generic.List<CoronavirusDataAllCountries>>(response.Content);
+            var cData = JsonConvert.DeserializeObject<List<CoronavirusDataAllCountries>>(response.Content);
 
             for (int i = 0; i < cData.Count; i++)
             {
@@ -54,11 +42,23 @@ namespace CovidApp
                 coronavirusDataAllCountries.Add(coronavirusData);
             }
 
-            
-            
-           
-             
+            //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
+            //collectionView.ItemsSource = coronavirusDataAllCountries;
+
+
+
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            
+
+            var newList = coronavirusDataAllCountries.OrderByDescending(x => x.confirmed).ToList();
+            collectionView.ItemsSource = newList;
+        }
+
+            
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             collectionView.ItemsSource = GetSearchResults(searchBar.Text);

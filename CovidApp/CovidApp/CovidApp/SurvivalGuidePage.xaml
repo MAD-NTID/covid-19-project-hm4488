@@ -50,7 +50,7 @@
                                FontAttributes="Italic"
                                HorizontalOptions="Center"
                                MaxLines="3"
-                           Style="{StaticResource Key=labelStyleForAll}"
+                           
                                        FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
@@ -84,7 +84,7 @@
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
-                           
+                           FontAttributes="Italic"
                                LineBreakMode="TailTruncation"
                     />
 
@@ -114,7 +114,7 @@
 
                     <Label Text="Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth."
                                        TextColor="{StaticResource labelColor}"
-                               Style="{StaticResource Key=labelStyleForAll}"
+                               FontAttributes="Italic"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
@@ -146,7 +146,7 @@
 
                     <Label Text="Staying at home reduces the spread of coronavirus and reduces the risk of getting infected as well as spread to other people."
                                        TextColor="{StaticResource labelColor}"
-                               Style="{StaticResource Key=labelStyleForAll}"
+                               FontAttributes="Italic"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"
@@ -178,9 +178,9 @@
                                     WidthRequest="300"
                     />
 
-                    <Label Text="Avoid close contatc with people who are sick, maintain 3 feet/6 meters away from other people."
+                    <Label Text="Avoid close contact with people who are sick, maintain 3 feet/6 meters away from other people."
                                        TextColor="{StaticResource labelColor}"
-                               Style="{StaticResource Key=labelStyleForAll}"
+                               FontAttributes="Italic"
                                HorizontalOptions="Center"
                                MaxLines="3"
                                        FontSize="Body"

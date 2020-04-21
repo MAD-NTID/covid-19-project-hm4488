@@ -15,7 +15,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:SurvivalGuidePage />
+                <local:GeneralInformationPage/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

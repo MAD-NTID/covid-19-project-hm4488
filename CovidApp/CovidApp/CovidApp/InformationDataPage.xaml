@@ -11,7 +11,7 @@
 
         <StackLayout>
             <SearchBar x:Name="searchBar" Placeholder="Find specific country..." PlaceholderColor="WhiteSmoke" TextChanged="SearchBar_TextChanged" TextColor="White" />
-            <CollectionView ItemsSource="{Binding coronavirusDataAllCountries}" x:Name="collectionView" SelectionMode="None" >
+            <CollectionView  x:Name="collectionView" SelectionMode="None" >
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid Padding="10">
@@ -43,7 +43,7 @@
                              />
                             
                             <Label Grid.Column="0"
-                           TextColor="{StaticResource labelColor}"
+                           TextColor="Yellow"
                        Text="Confirmed:"
                                FontSize="Medium"
                        
@@ -54,7 +54,7 @@
                     
                     
                     <Label Grid.Column="2"
-                           TextColor="{StaticResource labelColor}"
+                           TextColor="Yellow"
                        Text="{Binding confirmed}"
                            FontSize="Medium"
                        
@@ -64,7 +64,7 @@
                      />
 
                         <Label Grid.Column="0"
-                           TextColor="{StaticResource labelColor}"
+                           TextColor="LawnGreen"
                        Text="Recovered:"
                                FontSize="Medium"
                       
@@ -75,7 +75,7 @@
 
                         <Label Grid.Row="2"
                        Grid.Column="2"
-                               TextColor="{StaticResource labelColor}"
+                               TextColor="LawnGreen"
                                FontSize="Medium"
                        Text="{Binding recovered}"
                        
@@ -85,7 +85,7 @@
                                />
 
                         <Label Grid.Column="0"
-                           TextColor="{StaticResource labelColor}"
+                           TextColor="Red"
                        Text="Deaths:"
                                FontSize="Medium"
                        Style="{StaticResource Key=labelStyleForAll}"
@@ -99,7 +99,7 @@
                                Grid.ColumnSpan="4"
                                FontSize="Medium"
                        Text="{Binding deaths}"
-                               TextColor="{StaticResource labelColor}"
+                               TextColor="Red"
                        Style="{StaticResource Key=labelStyleForAll}"
                        VerticalOptions="End" />
 

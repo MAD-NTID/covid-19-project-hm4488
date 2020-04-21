@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="CovidApp.GeneralInformationPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <!--<Frame
+                BorderColor="DarkGray"
+                       CornerRadius="5"
+                       BackgroundColor="Transparent"
+                       Margin="10"
+                       HeightRequest="2170"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand">
+
+                <StackLayout>
+
+                    <Label Text="Clean your hands!!"
+                                 TextDecorations="Underline"
+                               TextColor="{StaticResource labelColor}"
+                               FontSize="30"
+                                      Style="{StaticResource Key=labelStyleForAll}"
+                                       MaxLines="2"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" 
+                    />
+
+
+
+                    <forms:AnimationView 
+	                              
+	                               Animation="coronavirus_icon.json" 
+                                    Loop="True"
+                                    IsPlaying="True"
+                                      HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                    HeightRequest="300"
+                                    WidthRequest="300"
+                    />
+
+                    <Label Text="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water."
+                                       TextColor="{StaticResource labelColor}"
+                               FontAttributes="Italic"
+                               HorizontalOptions="Center"
+                               MaxLines="3"
+                           
+                                       FontSize="Body"
+                               LineBreakMode="TailTruncation" />
+                </StackLayout>
+            </Frame>-->
+
+            <microcharts:ChartView x:Name="chartView" HeightRequest="300" WidthRequest="300" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

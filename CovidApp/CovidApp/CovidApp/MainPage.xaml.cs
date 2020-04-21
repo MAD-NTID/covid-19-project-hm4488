@@ -22,14 +22,20 @@ namespace CovidApp
             {
                 MasterBehavior = MasterBehavior.Popover;
             }
+
+            
         }
 
-        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+       void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            
             var item = e.SelectedItem as MasterPageItem;
             if (item != null)
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                BackButtonPressedEventArgs backButtonPressedEventArgs = new BackButtonPressedEventArgs();
+                backButtonPressedEventArgs.Handled = false;
+               Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+               // await Detail.Navigation.PushAsync((Page)Activator.CreateInstance(item.TargetType));
                 masterPage.listView.SelectedItem = null;
                 IsPresented = false;
             }

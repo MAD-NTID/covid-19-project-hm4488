@@ -31,6 +31,9 @@ lottie.forms.droid.AnimationViewRenderer_ClickListener;crc64cd8b23a5a735fc0f.Ani
 Lottie.Forms.Droid.AnimatorListener, Lottie.Forms;crc64cd8b23a5a735fc0f.AnimatorListener
 Lottie.Forms.Droid.AnimatorListener;crc64cd8b23a5a735fc0f.AnimatorListener
 lottie.forms.droid.AnimatorListener;crc64cd8b23a5a735fc0f.AnimatorListener
+Microcharts.Droid.ChartView, Microcharts.Droid;crc64e9f97cf19b8286a9.ChartView
+Microcharts.Droid.ChartView;crc64e9f97cf19b8286a9.ChartView
+microcharts.droid.ChartView;crc64e9f97cf19b8286a9.ChartView
 SkiaSharp.Views.Android.GLTextureView, SkiaSharp.Views.Android;crc648e35430423bd4943.GLTextureView
 SkiaSharp.Views.Android.GLTextureView;crc648e35430423bd4943.GLTextureView
 skiasharp.views.android.GLTextureView;crc648e35430423bd4943.GLTextureView
