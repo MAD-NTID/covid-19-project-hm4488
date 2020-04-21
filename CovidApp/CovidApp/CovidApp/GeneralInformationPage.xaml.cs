@@ -15,6 +15,8 @@ namespace CovidApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GeneralInformationPage : ContentPage
     {
+
+        public static List<CoronavirusInfoData> coronavirusDataWorldWide = new List<CoronavirusInfoData>();
         public GeneralInformationPage()
         {
             InitializeComponent();
@@ -33,8 +35,11 @@ namespace CovidApp
             request.AddHeader("x-rapidapi-key", "54c7eaa2camsh3bfb99864b4ad3ep111186jsn385646837c47");
             IRestResponse response = client.Execute(request);
 
+            
             var cData = JsonConvert.DeserializeObject<System.Collections.Generic.List<CoronavirusInfoData>>(response.Content);
-
+            CoronavirusInfoData coronavirusDataInfoData = new CoronavirusInfoData(cData[0].confirmed, cData[0].recovered, cData[0].deaths);
+            coronavirusDataWorldWide.Add(coronavirusDataInfoData);
+           
             var entries = new[]
             {
                 new Microcharts.Entry(float.Parse(cData[0].confirmed.ToString()))
@@ -67,7 +72,7 @@ namespace CovidApp
             chartView.Chart = chart;
             
             chartView.Chart.BackgroundColor = SKColor.Parse("#00FFFFFF");
-
+            collectionView.ItemsSource = coronavirusDataWorldWide;
 
         }
 
@@ -77,6 +82,13 @@ namespace CovidApp
             public string recovered { get; set; }
             public string critical { get; set; }
             public string deaths { get; set; }
+
+            public CoronavirusInfoData(string _confirmed, string _recovered, string _deaths)
+            {
+                confirmed = _confirmed;
+                recovered = _recovered;
+                deaths = _deaths;
+            }
         }
     }
 }
