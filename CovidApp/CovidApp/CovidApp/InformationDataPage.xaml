@@ -11,7 +11,7 @@
 
         <StackLayout>
             <SearchBar x:Name="searchBar" Placeholder="Find specific country..." PlaceholderColor="WhiteSmoke" TextChanged="SearchBar_TextChanged" TextColor="White" />
-            <CollectionView  x:Name="collectionView" SelectionMode="None" >
+       <CollectionView  x:Name="collectionView" SelectionMode="Single" SelectionChanged="collectionView_SelectionChanged">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 <Grid Padding="10">

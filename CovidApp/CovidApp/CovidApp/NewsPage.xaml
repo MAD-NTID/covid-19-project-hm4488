@@ -4,9 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="CovidApp.NewsPage">
+             x:Class="CovidApp.NewsPage"
+             Title="News">
 
-    <CarouselView ItemsSource="{Binding newsAPIData}" BackgroundColor="Transparent" x:Name="carouselView">
+    <!--<CarouselView ItemsSource="{Binding newsAPIData}" BackgroundColor="Transparent" x:Name="carouselView">
         <CarouselView.ItemsLayout>
             <LinearItemsLayout Orientation="Vertical" />
         </CarouselView.ItemsLayout>
@@ -44,6 +45,111 @@
                 </StackLayout>
             </DataTemplate>
         </CarouselView.ItemTemplate>
-    </CarouselView>
+    </CarouselView>-->
+
+   <!-- <CollectionView  x:Name="collectionView" ItemsSource="{Binding valueData}" BackgroundColor="Transparent" SelectionMode="Single" >
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="{Binding name}"
+                               FontAttributes="Bold"
+                               FontSize="Large"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="6"
+                           Grid.Row="0"
+                           
+                                   TextColor="{StaticResource labelColor}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    <Image Source="{Binding image.thumbnail.contentUrl}"
+                               Aspect="AspectFit"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="6"
+                           Grid.Row="1"
+                           Grid.RowSpan="4"
+                               HeightRequest="300"
+                               WidthRequest="300"
+                               HorizontalOptions="Center" />
+                    <Label Text="{Binding datePublished}"
+                               FontAttributes="Italic"
+                               HorizontalOptions="Center"
+                           Grid.Row="5"
+                           Grid.Column="1"
+                           Grid.ColumnSpan="3"
+                                   TextColor="{StaticResource labelColor}"
+                               MaxLines="5"
+                               LineBreakMode="TailTruncation" />
+
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>-->
+
+    <ListView ItemsSource="{Binding valueData}"
+          HasUnevenRows="true"
+              SeparatorVisibility="Default"
+              SeparatorColor="White"
+          x:Name="listView">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.RowSpan="5"
+                           Source="{Binding image.thumbnail.contentUrl}"
+                           Aspect="AspectFill"
+                           HeightRequest="80"
+                           WidthRequest="80" 
+                               Grid.Row="1"
+                               />
+                        <Label Grid.Column="1"
+                               Grid.RowSpan="6"
+                           Text="{Binding name}"
+                               FontAttributes="Italic"
+                               FontSize="Medium"
+                               TextColor="{StaticResource labelColor}"
+                            />
+                        <Label Grid.Row="6"
+                           Grid.Column="1"
+                           Text="{Binding datePublished}"
+                               TextColor="{StaticResource labelColor}"
+                           VerticalOptions="End" />
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 
 </ContentPage>

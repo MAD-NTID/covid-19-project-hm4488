@@ -86,6 +86,7 @@
     <AndroidAsset Include="Assets\seek_medical_care.json" />
     <AndroidAsset Include="Assets\avoid_close_contact.json" />
     <AndroidAsset Include="Assets\coronavirus_icon.json" />
+    <AndroidAsset Include="Assets\lungs_icon.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

@@ -7,7 +7,7 @@ using System.Linq;
 
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -44,7 +44,7 @@ namespace CovidApp
 
             //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
             //collectionView.ItemsSource = coronavirusDataAllCountries;
-
+            //collectionView.SelectedItem = 
 
 
         }
@@ -56,9 +56,11 @@ namespace CovidApp
 
             var newList = coronavirusDataAllCountries.OrderByDescending(x => x.confirmed).ToList();
             collectionView.ItemsSource = newList;
+            
         }
 
             
+        
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             collectionView.ItemsSource = GetSearchResults(searchBar.Text);
@@ -70,7 +72,15 @@ namespace CovidApp
             return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
 
-       
+        private void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            //int? previous = (e.PreviousSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
+            //int? current = (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
+            //await Share.RequestAsync("Bitch");
+            //if(previous == (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed)
+            collectionView.SelectedItem = null;
+        }
     }
 
     public class CoronavirusDataAllCountries

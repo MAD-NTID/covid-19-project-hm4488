@@ -15,7 +15,7 @@
                        CornerRadius="5"
                        BackgroundColor="Transparent"
                        Margin="10"
-                       HeightRequest="2170"
+                       HeightRequest="2220"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand">
 
@@ -63,9 +63,7 @@
                     />
                        <microcharts:ChartView x:Name="chartView" HeightRequest="200" WidthRequest="200" />
 
-                    <CollectionView  x:Name="collectionView" SelectionMode="None" >
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
+                    
                                 <Grid Padding="10">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
@@ -95,7 +93,7 @@
 
                                     <Label Grid.Column="2"
                            TextColor="Yellow"
-                       Text="{Binding confirmed}"
+                           x:Name="confirmedLabel"
                            FontSize="Medium"
                            Grid.ColumnSpan="4"
                           Style="{StaticResource Key=labelStyleForAll}"
@@ -115,7 +113,7 @@
                        Grid.Column="2"
                                TextColor="LawnGreen"
                                FontSize="Medium"
-                       Text="{Binding recovered}"
+                       x:Name="recoveredLabel"
                        
                        VerticalOptions="End"
                                Grid.ColumnSpan="4"
@@ -136,15 +134,13 @@
                        Grid.Column="2"
                                Grid.ColumnSpan="4"
                                FontSize="Medium"
-                       Text="{Binding deaths}"
+                       x:Name="deathsLabel"
                                TextColor="Red"
                        Style="{StaticResource Key=labelStyleForAll}"
                        VerticalOptions="End" />
 
                                 </Grid>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+                            
 
                     <Label Text="Symptoms of COVID-19"
                                  TextDecorations="Underline"
@@ -288,9 +284,19 @@
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Italic"
                                HorizontalOptions="Center"
-                               MaxLines="20"
+                               MaxLines="1"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
+                    <forms:AnimationView 
+	                              
+	                               Animation="lungs_icon.json" 
+                                    Loop="True"
+                                    IsPlaying="True"
+                                      HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                    HeightRequest="300"
+                                    WidthRequest="500"
+                    />
 
                 </StackLayout>
             </Frame>

@@ -72,7 +72,10 @@ namespace CovidApp
             chartView.Chart = chart;
             
             chartView.Chart.BackgroundColor = SKColor.Parse("#00FFFFFF");
-            collectionView.ItemsSource = coronavirusDataWorldWide;
+
+            confirmedLabel.Text = cData[0].confirmed;
+            recoveredLabel.Text = cData[0].recovered;
+            deathsLabel.Text = cData[0].deaths;
 
         }
 
