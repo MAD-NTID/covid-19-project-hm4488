@@ -17,6 +17,8 @@
             <x:Arguments>
                 <local:GeneralInformationPage/>
             </x:Arguments>
+            <NavigationPage.BarBackgroundColor>DarkBlue</NavigationPage.BarBackgroundColor>
+            
         </NavigationPage>
     </MasterDetailPage.Detail>
 

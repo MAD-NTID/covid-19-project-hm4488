@@ -17,7 +17,6 @@ namespace CovidApp
         {
             InitializeComponent();
             masterPage.listViewMaster.ItemSelected += OnItemSelected;
-
             if (Device.RuntimePlatform == Device.UWP)
             {
                 MasterBehavior = MasterBehavior.Popover;
@@ -35,6 +34,7 @@ namespace CovidApp
                 BackButtonPressedEventArgs backButtonPressedEventArgs = new BackButtonPressedEventArgs();
                 backButtonPressedEventArgs.Handled = false;
                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                
                // await Detail.Navigation.PushAsync((Page)Activator.CreateInstance(item.TargetType));
                 masterPage.listViewMaster.SelectedItem = null;
                 IsPresented = false;
