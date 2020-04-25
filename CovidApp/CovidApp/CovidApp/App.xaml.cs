@@ -9,11 +9,28 @@ namespace CovidApp
     {
 
         public static bool flag = true;
+        public static bool otherflag = true;
         public App()
         {
             InitializeComponent();
-           
-            MainPage = new MainPage();
+
+             MainPage = new MainPage();
+            /*var nav = new NavigationPage
+            {
+                Title = "Detail"
+            };
+            nav.PushAsync(new GeneralInformationPage() { Title = "General" });
+            nav.BarBackgroundColor = Color.MediumPurple;
+
+            var mdp = new MasterDetailPage()
+            {
+                Master = new ContentPage()
+                {
+                    Title = "Master"
+                },
+                Detail = nav
+            };
+            MainPage = mdp;*/
         }
 
         protected override void OnStart()

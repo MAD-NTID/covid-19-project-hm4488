@@ -34,12 +34,15 @@ namespace CovidApp
             IRestResponse response = client.Execute(request);
 
             var cData = JsonConvert.DeserializeObject<List<CoronavirusDataAllCountries>>(response.Content);
-
-            for (int i = 0; i < cData.Count; i++)
+            if (App.otherflag == true)
             {
-                CoronavirusDataAllCountries coronavirusData = new CoronavirusDataAllCountries(cData[i].country, cData[i].confirmed, cData[i].recovered, cData[i].critical, cData[i].deaths, cData[i].latitude, cData[i].longitude);
+                for (int i = 0; i < cData.Count; i++)
+                {
+                    CoronavirusDataAllCountries coronavirusData = new CoronavirusDataAllCountries(cData[i].country, cData[i].confirmed, cData[i].recovered, cData[i].critical, cData[i].deaths, cData[i].latitude, cData[i].longitude);
 
-                coronavirusDataAllCountries.Add(coronavirusData);
+                    coronavirusDataAllCountries.Add(coronavirusData);
+                }
+                App.otherflag = false;
             }
 
             //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
@@ -55,7 +58,7 @@ namespace CovidApp
             
 
             var newList = coronavirusDataAllCountries.OrderByDescending(x => x.confirmed).ToList();
-            collectionView.ItemsSource = newList;
+            collectionViewCountries.ItemsSource = newList;
             
         }
 
@@ -63,7 +66,7 @@ namespace CovidApp
         
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
-            collectionView.ItemsSource = GetSearchResults(searchBar.Text);
+            collectionViewCountries.ItemsSource = GetSearchResults(searchBar.Text);
         }
 
         public static List<CoronavirusDataAllCountries> GetSearchResults(string queryString)
@@ -72,14 +75,14 @@ namespace CovidApp
             return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
 
-        private void collectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void collectionViewCountries_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
             //int? previous = (e.PreviousSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
             //int? current = (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
             //await Share.RequestAsync("Bitch");
             //if(previous == (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed)
-            collectionView.SelectedItem = null;
+            collectionViewCountries.SelectedItem = null;
         }
     }
 

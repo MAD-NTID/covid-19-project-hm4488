@@ -109,7 +109,7 @@
           HasUnevenRows="true"
               SeparatorVisibility="Default"
               SeparatorColor="White"
-          x:Name="listView">
+          x:Name="listViewNews">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>

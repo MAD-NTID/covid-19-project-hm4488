@@ -86,9 +86,9 @@ namespace CovidApp
                 App.flag = false;
             }
 
-            listView.ItemsSource = valueData;
+            listViewNews.ItemsSource = valueData;
 
-            listView.ItemTapped += async (s, e) =>
+            listViewNews.ItemTapped += async (s, e) =>
             {
                 Value itemTapped = e.Item as Value;
                 await Browser.OpenAsync(itemTapped.url, new BrowserLaunchOptions

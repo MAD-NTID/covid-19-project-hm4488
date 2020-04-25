@@ -15,20 +15,21 @@
                        CornerRadius="5"
                        BackgroundColor="Transparent"
                        Margin="10"
-                       HeightRequest="2220"
+                       HeightRequest="2450"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand">
 
                 <StackLayout>
 
                     <Label Text="Coronavirus (COVID-19)!!"
-                                 TextDecorations="Underline"
+                                 
                                TextColor="{StaticResource labelColor}"
-                               FontSize="30"
-                                      Style="{StaticResource Key=labelStyleForAll}"
-                                       MaxLines="2"
+                               FontSize="27"
+                                      FontAttributes="Bold"
+                                       MaxLines="3"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
+                           Margin="10"
                     />
 
 
@@ -46,17 +47,18 @@
 
                     <Label Text="A coronavirus is a kind of common virus that causes an infection in your nose, sinuses, or upper throat. Most coronaviruses aren't dangerous. COVID-19 is a disease that can cause what doctors call a respiratory tract infection. It can affect your upper respiratory tract (sinuses, nose, and throat) or lower respiratory tract (windpipe and lungs). It's caused by a coronavirus named SARS-CoV-2. It spreads the same way other coronaviruses do, mainly through person-to-person contact. Infections range from mild to serious. SARS-CoV-2 is one of seven types of coronavirus, including the ones that cause severe diseases like Middle East respiratory syndrome (MERS) and sudden acute respiratory syndrome (SARS). The other coronaviruses cause most of the colds that affect us during the year but aren't a serious threat for otherwise healthy people."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               
                                HorizontalOptions="Center"
-                               MaxLines="20"
+                               MaxLines="25"
                                FontSize="Body"
-                               LineBreakMode="TailTruncation" />
+                               LineBreakMode="TailTruncation"
+                           Margin="23"/>
 
                     <Label Text="Worldwide Statistics"
-                                 TextDecorations="Underline"
+                                 Margin="10"
                                TextColor="{StaticResource labelColor}"
-                               FontSize="30"
-                                      Style="{StaticResource Key=labelStyleForAll}"
+                               FontSize="27"
+                                      FontAttributes="Bold"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
@@ -64,7 +66,7 @@
                        <microcharts:ChartView x:Name="chartView" HeightRequest="200" WidthRequest="200" />
 
                     
-                                <Grid Padding="10">
+                                <Grid  Margin="23">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="*" />
@@ -87,16 +89,16 @@
                        Text="Confirmed:"
                                FontSize="Medium"
                                Grid.ColumnSpan="2"
-                          Style="{StaticResource Key=labelStyleForAll}"
+                          
                      />
 
 
                                     <Label Grid.Column="2"
-                           TextColor="Yellow"
+                           TextColor="White"
                            x:Name="confirmedLabel"
                            FontSize="Medium"
                            Grid.ColumnSpan="4"
-                          Style="{StaticResource Key=labelStyleForAll}"
+                          
                      />
 
                                     <Label Grid.Column="0"
@@ -106,25 +108,25 @@
                       
                            Grid.Row="1"
                                Grid.ColumnSpan="2"
-                          Style="{StaticResource Key=labelStyleForAll}"
+                         
                      />
 
                                     <Label Grid.Row="1"
                        Grid.Column="2"
-                               TextColor="LawnGreen"
+                               TextColor="White"
                                FontSize="Medium"
                        x:Name="recoveredLabel"
                        
                        VerticalOptions="End"
                                Grid.ColumnSpan="4"
-                               Style="{StaticResource Key=labelStyleForAll}"
+                               
                                />
 
                                     <Label Grid.Column="0"
                            TextColor="Red"
                        Text="Deaths:"
                                FontSize="Medium"
-                       Style="{StaticResource Key=labelStyleForAll}"
+                       
                            Grid.Row="2"
                                Grid.ColumnSpan="2"
                           
@@ -135,97 +137,97 @@
                                Grid.ColumnSpan="4"
                                FontSize="Medium"
                        x:Name="deathsLabel"
-                               TextColor="Red"
-                       Style="{StaticResource Key=labelStyleForAll}"
+                               TextColor="White"
+                       
                        VerticalOptions="End" />
 
                                 </Grid>
                             
 
                     <Label Text="Symptoms of COVID-19"
-                                 TextDecorations="Underline"
+                                 Margin="10"
                                TextColor="{StaticResource labelColor}"
-                               FontSize="30"
-                                      Style="{StaticResource Key=labelStyleForAll}"
+                               FontSize="27"
+                                      FontAttributes="Bold"
                                        MaxLines="2"
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
                     />
                     <Label Text="Early Symptoms include:"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Margin="23"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Fever"
+                    <Label Text="Fever" 
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Dry Cough"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Fatigue"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="The virus can lead to pneumonia, respiratory failure, septic shock, and death. If you notice the following severe symptoms in yourself or a loved one, get medical help right away:"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               Margin="23"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Trouble breathing or shortness of breath"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Ongoing chest pain or pressure"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="New confusion"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                              FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Can't wake up fully"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                              FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
                     <Label Text="Bluish lips or face"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
                     <Label Text="Coronavirus Risk Factors"
-                                 TextDecorations="Underline"
+                                Margin="10"
                                TextColor="{StaticResource labelColor}"
-                               FontSize="30"
+                               FontSize="27"
                                       Style="{StaticResource Key=labelStyleForAll}"
                                        MaxLines="2"
                                HorizontalOptions="Center"
@@ -234,7 +236,7 @@
 
                     <Label Text="Anyone can get COVID-19, and most infections are usually mild, especially in children and young adults. But if you aren't in an area where COVID-19 is spreading, haven't traveled from an area where it's spreading, and haven't been in contact with someone who has it, your risk of infection is low."
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -242,7 +244,7 @@
 
                     <Label Text="People over 65 are most likely to get a serious illness, as are those who live in nursing homes or long-term care facilities, who have weakened immune systems, or who have medical conditions including:"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                              
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -250,7 +252,7 @@
 
                     <Label Text="Moderate to severe asthma"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                              FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -258,7 +260,7 @@
 
                     <Label Text="Heart, lung, or liver disease"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -266,7 +268,7 @@
 
                     <Label Text="Kidney disease that needs dialysis"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -274,7 +276,7 @@
 
                     <Label Text="Severe obesity"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
@@ -282,7 +284,7 @@
 
                     <Label Text="Diabetes"
                                        TextColor="{StaticResource labelColor}"
-                               FontAttributes="Italic"
+                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="1"
                                FontSize="Body"

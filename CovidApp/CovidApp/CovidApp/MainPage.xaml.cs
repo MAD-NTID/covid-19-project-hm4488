@@ -16,7 +16,7 @@ namespace CovidApp
         public MainPage()
         {
             InitializeComponent();
-            masterPage.listView.ItemSelected += OnItemSelected;
+            masterPage.listViewMaster.ItemSelected += OnItemSelected;
 
             if (Device.RuntimePlatform == Device.UWP)
             {
@@ -36,7 +36,7 @@ namespace CovidApp
                 backButtonPressedEventArgs.Handled = false;
                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
                // await Detail.Navigation.PushAsync((Page)Activator.CreateInstance(item.TargetType));
-                masterPage.listView.SelectedItem = null;
+                masterPage.listViewMaster.SelectedItem = null;
                 IsPresented = false;
             }
         }
