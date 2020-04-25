@@ -15,7 +15,7 @@
                        CornerRadius="5"
                        BackgroundColor="Transparent"
                        Margin="10"
-                       HeightRequest="2450"
+                       HeightRequest="2650"
                        HorizontalOptions="Center"
                        VerticalOptions="CenterAndExpand">
 
@@ -66,13 +66,15 @@
                        <microcharts:ChartView x:Name="chartView" HeightRequest="200" WidthRequest="200" />
 
                     
-                                <Grid  Margin="23">
+                                <Grid  Margin="10">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="*" />
-                                        
-                                    </Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*" />
                                         <ColumnDefinition Width="*" />
@@ -88,12 +90,12 @@
                            TextColor="Yellow"
                        Text="Confirmed:"
                                FontSize="Medium"
-                               Grid.ColumnSpan="2"
+                               Grid.ColumnSpan="3"
                           
                      />
 
 
-                                    <Label Grid.Column="2"
+                                    <Label Grid.Column="4"
                            TextColor="White"
                            x:Name="confirmedLabel"
                            FontSize="Medium"
@@ -107,12 +109,12 @@
                                FontSize="Medium"
                       
                            Grid.Row="1"
-                               Grid.ColumnSpan="2"
+                               Grid.ColumnSpan="3"
                          
                      />
 
                                     <Label Grid.Row="1"
-                       Grid.Column="2"
+                       Grid.Column="4"
                                TextColor="White"
                                FontSize="Medium"
                        x:Name="recoveredLabel"
@@ -133,7 +135,7 @@
                      />
 
                                     <Label Grid.Row="2"
-                       Grid.Column="2"
+                       Grid.Column="4"
                                Grid.ColumnSpan="4"
                                FontSize="Medium"
                        x:Name="deathsLabel"

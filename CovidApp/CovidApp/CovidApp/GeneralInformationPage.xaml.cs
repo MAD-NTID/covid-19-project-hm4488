@@ -73,10 +73,13 @@ namespace CovidApp
             
             chartView.Chart.BackgroundColor = SKColor.Parse("#00FFFFFF");
 
-            confirmedLabel.Text = cData[0].confirmed;
-            recoveredLabel.Text = cData[0].recovered;
-            deathsLabel.Text = cData[0].deaths;
+            //confirmedLabel.Text = cData[0].confirmed;
+            //recoveredLabel.Text = cData[0].recovered;
+            //deathsLabel.Text = cData[0].deaths;
 
+            confirmedLabel.Text = Convert.ToDouble(cData[0].confirmed).ToString("N0");
+            recoveredLabel.Text = Convert.ToDouble(cData[0].recovered).ToString("N0");
+            deathsLabel.Text = Convert.ToDouble(cData[0].deaths).ToString("N0");
         }
 
         public class CoronavirusInfoData

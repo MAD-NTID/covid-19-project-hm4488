@@ -38,8 +38,6 @@
                                Grid.RowSpan="2"
                                Grid.ColumnSpan="7"
                                Style="{StaticResource Key=labelStyleForAll}"
-                                     
-                               
                              />
                             
                             <Label Grid.Column="1"
@@ -51,13 +49,13 @@
                                Grid.ColumnSpan="2"
                           
                      />
-                    
-                    
-                    <Label Grid.Column="3"
+
+
+                            <Label x:Name="confirmedLabel"
+                        Grid.Column="3"
                            TextColor="White"
-                       Text="{Binding confirmed}"
+                       Text="{Binding confirmed, StringFormat='{}{0:N0}'}"
                            FontSize="Medium"
-                       
                            Grid.Row="1"
                            Grid.ColumnSpan="4"
                           
@@ -77,8 +75,8 @@
                        Grid.Column="3"
                                TextColor="White"
                                FontSize="Medium"
-                       Text="{Binding recovered}"
-                       
+                       Text="{Binding recovered, StringFormat='{}{0:N0}'}"
+                       x:Name="recoveredLabel"
                        VerticalOptions="End"
                                Grid.ColumnSpan="4"
                                
@@ -98,9 +96,9 @@
                        Grid.Column="3"
                                Grid.ColumnSpan="4"
                                FontSize="Medium"
-                       Text="{Binding deaths}"
+                       Text="{Binding deaths, StringFormat='{}{0:N0}'}"
                                TextColor="White"
-                       
+                       x:Name="deathLabel"
                        VerticalOptions="End" />
 
                     </Grid>

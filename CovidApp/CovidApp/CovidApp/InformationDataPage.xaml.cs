@@ -22,7 +22,7 @@ namespace CovidApp
         public  InformationDataPage()
         {
             InitializeComponent();
-
+           
             var client = new RestClient("https://covid-19-data.p.rapidapi.com/country/all?format=undefined");
 
             var request = new RestRequest(Method.GET);
@@ -48,7 +48,7 @@ namespace CovidApp
             //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
             //collectionView.ItemsSource = coronavirusDataAllCountries;
             //collectionView.SelectedItem = 
-
+            
 
         }
         protected override void OnAppearing()
