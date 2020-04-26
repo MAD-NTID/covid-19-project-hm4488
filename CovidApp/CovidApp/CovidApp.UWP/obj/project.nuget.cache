@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2EIaQY3v//5iT9EfztI+WP1Qz4hdyxOPFMHjJbdG/Py5FjDmtL1HvJ6EQQH3/0oSoE7n8DADG8Nm3nGqQwTwfA==",
+  "dgSpecHash": "FtFUHP9WL3dK1tK3QmlSUuvbL4li8TZ1YCMXeJ+nmTC5DInzWUdhA3sg3/2YT9HGlGb7Uvza9BK80BCHd9VN/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.UWP\\CovidApp.UWP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.3\\com.airbnb.xamarin.forms.lottie.3.0.3.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\lottieuwp\\2.8.2\\lottieuwp.2.8.2.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts\\0.7.1\\microcharts.0.7.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts.forms\\0.7.1\\microcharts.forms.0.7.1.nupkg.sha512",
@@ -38,7 +39,7 @@
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views\\1.68.0\\skiasharp.views.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\skiasharp.views.forms\\1.68.0\\skiasharp.views.forms.1.68.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\win2d.uwp\\1.21.0\\win2d.uwp.1.21.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],

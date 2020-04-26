@@ -31,6 +31,7 @@ namespace CovidApp.UWP
             this.InitializeComponent();
             
             this.Suspending += OnSuspending;
+            
         }
 
         /// <summary>

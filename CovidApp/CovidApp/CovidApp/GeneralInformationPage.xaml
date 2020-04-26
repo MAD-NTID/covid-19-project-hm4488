@@ -6,7 +6,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
              x:Class="CovidApp.GeneralInformationPage"
-             Title="General">
+             Title="Information">
     <ContentPage.Content>
         <ScrollView>
 

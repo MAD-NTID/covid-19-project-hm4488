@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.0.3": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "4.2.0.815419"
@@ -190,15 +190,15 @@
     }
   },
   "libraries": {
-    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.4": {
-      "sha512": "uwLymybcQDdobg//kyeqH6zEuPuVGBDULVYC7Cv9OQGLfCdqsmcYNEprs7z02ptx6NgolFeAT1J/Imr2P097qA==",
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.0.3": {
+      "sha512": "Lf0Q4K5WiqjAJRH12BJUOCfoKIMiPWrpn7gMNBrX+6pwjSiSPE96EUakaag0Q2Xj5bn9vJ48lVXlRoVIjBAgCw==",
       "type": "package",
-      "path": "com.airbnb.xamarin.forms.lottie/3.0.4",
+      "path": "com.airbnb.xamarin.forms.lottie/3.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.3.0.3.nupkg.sha512",
         "com.airbnb.xamarin.forms.lottie.nuspec",
         "icon.png",
         "lib/monoandroid90/Lottie.Forms.dll",
@@ -210,10 +210,10 @@
         "lib/tizen40/Lottie.Forms.dll",
         "lib/tizen40/Lottie.Forms.pdb",
         "lib/tizen40/Lottie.Forms.xml",
-        "lib/uap10.0.18362/Lottie.Forms.dll",
-        "lib/uap10.0.18362/Lottie.Forms.pdb",
-        "lib/uap10.0.18362/Lottie.Forms.pri",
-        "lib/uap10.0.18362/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
         "lib/xamarinios10/Lottie.Forms.dll",
         "lib/xamarinios10/Lottie.Forms.pdb",
         "lib/xamarinios10/Lottie.Forms.xml",
@@ -985,7 +985,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.4",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 3.0.3",
       "MagicGradients >= 1.0.0",
       "Microcharts >= 0.7.1",
       "Microcharts.Forms >= 0.7.1",
@@ -1040,7 +1040,7 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": {
             "target": "Package",
-            "version": "[3.0.4, )"
+            "version": "[3.0.3, )"
           },
           "MagicGradients": {
             "target": "Package",

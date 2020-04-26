@@ -19,8 +19,8 @@ namespace CovidApp.UWP
     {
         public MainPage()
         {
-            this.InitializeComponent();
             
+            this.InitializeComponent();
             LoadApplication(new CovidApp.App());
         }
     }

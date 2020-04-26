@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "seiQJQWGTk+y3PTV/0dl8rbxAGm9C9BcQNxhrrE19cFiYqnhtrqa+pYGC/ajfeDaoaSh9v8Je5+FDx5zlz9QUw==",
+  "dgSpecHash": "2kZBeZM4mq1ZaarEHNkqFwbAagnbzkzii71K2fL/Hxync+o0so95V0FqgELEiJrbkD2RQeCd7UCTniT5TsMIgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.iOS\\CovidApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.10\\com.airbnb.ios.lottie.2.5.10.nupkg.sha512",
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.4\\com.airbnb.xamarin.forms.lottie.3.0.4.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.3\\com.airbnb.xamarin.forms.lottie.3.0.3.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts\\0.7.1\\microcharts.0.7.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts.forms\\0.7.1\\microcharts.forms.0.7.1.nupkg.sha512",

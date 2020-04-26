@@ -112,6 +112,10 @@
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\splash_logo.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Assets\Square150x150Logo.scale-100.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-400.png" />
@@ -144,7 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
-      <Version>3.0.4</Version>
+      <Version>3.0.3</Version>
     </PackageReference>
     <PackageReference Include="MagicGradients">
       <Version>1.0.0</Version>
@@ -171,6 +175,8 @@
   <ItemGroup>
     <None Include="avoid_close_contact.json" />
     <None Include="avoid_touching_your_face.json" />
+    <AndroidAsset Include="coronavirus_icon.json" />
+    <AndroidAsset Include="lungs_icon.json" />
     <None Include="seek_medical_care.json" />
     <None Include="stay_safe_home.json" />
     <None Include="wash_your_hands.json" />

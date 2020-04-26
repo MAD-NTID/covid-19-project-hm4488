@@ -48,18 +48,18 @@ namespace CovidApp
             //carouselCollectionView.ItemsSource = coronavirusDataAllCountries;
             //collectionView.ItemsSource = coronavirusDataAllCountries;
             //collectionView.SelectedItem = 
-            
 
+           
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
 
-            
 
             var newList = coronavirusDataAllCountries.OrderByDescending(x => x.confirmed).ToList();
             collectionViewCountries.ItemsSource = newList;
-            
+
+
         }
 
             
@@ -67,6 +67,12 @@ namespace CovidApp
         private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             collectionViewCountries.ItemsSource = GetSearchResults(searchBar.Text);
+           if(searchBar.Text == "")
+            {
+                var newList = coronavirusDataAllCountries.OrderByDescending(x => x.confirmed).ToList();
+                collectionViewCountries.ItemsSource = newList;
+            }
+               
         }
 
         public static List<CoronavirusDataAllCountries> GetSearchResults(string queryString)

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>45E730D325DD36330F7C22AC45CC2C03290BCC70E40A721D4F8354CA190AA5FD</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>7D56DB3187A76005987A004173D891C7EE156A7A1D5C4C2F033DFC8CB3A42FBC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>519cc597-c1e9-4858-b387-7e08d5197c22_1.0.0.0_x86__86qc17fj1gdt6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>519cc597-c1e9-4858-b387-7e08d5197c22_86qc17fj1gdt6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>519cc597-c1e9-4858-b387-7e08d5197c22</RegisteredPackageID>
@@ -30,21 +30,37 @@
     <AppXManifest Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-14T21:29:52.385</Modified>
+      <Modified>2020-04-26T20:44:53.995</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\CovidApp.UWP.exe">
       <PackagePath>entrypoint\CovidApp.UWP.exe</PackagePath>
-      <Modified>2020-04-14T21:29:48.100</Modified>
+      <Modified>2020-04-26T20:44:12.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\com.airbnb.xamarin.forms.lottie\3.0.4\lib\netstandard2.0\Lottie.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\com.airbnb.xamarin.forms.lottie\3.0.3\lib\uap10.0.16299\Lottie.Forms.dll">
       <PackagePath>Lottie.Forms.dll</PackagePath>
-      <Modified>2020-02-10T15:17:24.000</Modified>
+      <Modified>2019-10-24T17:07:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\lottieuwp\2.8.2\lib\uap10.0\LottieUWP.dll">
+      <PackagePath>LottieUWP.dll</PackagePath>
+      <Modified>2018-11-29T05:48:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\magicgradients\1.0.0\lib\netstandard2.0\MagicGradients.dll">
       <PackagePath>MagicGradients.dll</PackagePath>
       <Modified>2019-10-11T12:50:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\microcharts\0.7.1\lib\uap\Microcharts.Uwp.dll">
+      <PackagePath>Microcharts.Uwp.dll</PackagePath>
+      <Modified>2017-09-30T21:52:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\microcharts\0.7.1\lib\uap\Microcharts.dll">
+      <PackagePath>Microcharts.dll</PackagePath>
+      <Modified>2017-09-30T21:52:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\microcharts.forms\0.7.1\lib\netstandard1.4\Microcharts.Forms.dll">
+      <PackagePath>Microcharts.Forms.dll</PackagePath>
+      <Modified>2017-09-30T21:53:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -86,9 +102,9 @@
       <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
       <Modified>2018-12-03T03:22:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2016-11-30T06:58:38.000</Modified>
+      <Modified>2017-06-26T07:01:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\xamarin.essentials\1.5.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
@@ -112,11 +128,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.dll">
       <PackagePath>CovidApp.dll</PackagePath>
-      <Modified>2020-04-14T21:29:36.100</Modified>
+      <Modified>2020-04-26T20:41:06.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-      <Modified>2016-11-30T06:58:38.000</Modified>
+      <Modified>2017-06-26T07:01:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -158,18 +174,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\splash_logo.png">
+      <PackagePath>Assets\splash_logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-04-26T20:35:24.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
@@ -188,47 +206,38 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-04-13T22:43:14.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\Assets\StoreLogo.scale-100.png">
@@ -271,11 +280,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-14T21:29:47.783</Modified>
+      <Modified>2020-04-26T20:40:17.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-14T21:29:47.784</Modified>
+      <Modified>2020-04-26T20:40:17.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -291,11 +300,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-14T21:29:49.419</Modified>
+      <Modified>2020-04-26T20:44:52.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\Core\CovidApp.UWP.exe">
       <PackagePath>CovidApp.UWP.exe</PackagePath>
-      <Modified>2020-04-14T21:29:52.376</Modified>
+      <Modified>2020-04-26T20:44:53.989</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
