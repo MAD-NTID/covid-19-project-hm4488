@@ -17,7 +17,7 @@
             <x:Arguments>
                 <local:GeneralInformationPage/>
             </x:Arguments>
-            <NavigationPage.BarBackgroundColor>Green</NavigationPage.BarBackgroundColor>
+            <NavigationPage.BarBackgroundColor>Blue</NavigationPage.BarBackgroundColor>
             
         </NavigationPage>
     </MasterDetailPage.Detail>

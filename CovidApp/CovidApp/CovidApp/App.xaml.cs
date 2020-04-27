@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -31,6 +32,7 @@ namespace CovidApp
                 Detail = nav
             };
             MainPage = mdp;*/
+            //AppTheme appTheme = AppInfo.RequestedTheme;
         }
 
         protected override void OnStart()

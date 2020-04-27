@@ -22,7 +22,7 @@
                 
                 <StackLayout>
                     
-                    <Label Text="Clean your hands!!"
+                    <Label Text="Wash your hands!!"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"

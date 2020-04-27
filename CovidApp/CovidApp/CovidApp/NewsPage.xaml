@@ -137,7 +137,7 @@
                         <Label Grid.Column="1"
                                Grid.RowSpan="6"
                            Text="{Binding name}"
-                               FontAttributes="Italic"
+                              
                                FontSize="Medium"
                                TextColor="{StaticResource labelColor}"
                             />

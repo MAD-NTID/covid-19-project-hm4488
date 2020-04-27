@@ -180,6 +180,7 @@
     <None Include="seek_medical_care.json" />
     <None Include="stay_safe_home.json" />
     <None Include="wash_your_hands.json" />
+    <None Include="xamarin_icon.json" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

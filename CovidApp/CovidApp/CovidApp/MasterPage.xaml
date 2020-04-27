@@ -15,6 +15,8 @@
                     <local:MasterPageItem Title="Survival Guide" TargetType="{x:Type local:SurvivalGuidePage}" />
                     <local:MasterPageItem Title="Statistics"  TargetType="{x:Type local:InformationDataPage}" />
                     <local:MasterPageItem Title="News"  TargetType="{x:Type local:NewsPage}" />
+                    <local:MasterPageItem Title="References"  TargetType="{x:Type local:References}" />
+                    <local:MasterPageItem Title="About"  TargetType="{x:Type local:AboutPage}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
@@ -25,7 +27,7 @@
                                 <ColumnDefinition Width="30"/>
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Column="1" Text="{Binding Title}"  FontSize="20" FontAttributes="Bold" TextColor="{StaticResource labelColor}"/>
+                            <Label Grid.Column="1" Text="{Binding Title}"  FontSize="20"  TextColor="{StaticResource labelColor}"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

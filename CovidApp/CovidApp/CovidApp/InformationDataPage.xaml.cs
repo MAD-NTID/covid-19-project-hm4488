@@ -81,14 +81,16 @@ namespace CovidApp
             return coronavirusDataAllCountries.Where(f => f.country.ToLowerInvariant().Contains(normalizedQuery)).ToList();
         }
 
-        private void collectionViewCountries_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private  void collectionViewCountries_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
             //int? previous = (e.PreviousSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
             //int? current = (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed;
-            //await Share.RequestAsync("Bitch");
             //if(previous == (e.CurrentSelection.FirstOrDefault() as CoronavirusDataAllCountries)?.confirmed)
-            collectionViewCountries.SelectedItem = null;
+            
+            //await Navigation.PushAsync(new GeneralInformationPage());
+            
+            //((CollectionView)sender).SelectedItem = null;
         }
     }
 
