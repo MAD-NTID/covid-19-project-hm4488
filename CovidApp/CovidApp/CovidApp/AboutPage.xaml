@@ -71,9 +71,8 @@
                                LineBreakMode="TailTruncation"
                            Margin="23"/>
 
-                    <Label Text="Developed in Xamarin.Forms, one of the best software applications for developing Mobile Apps!!"
+                    <Label Text="Developed in Xamarin.Forms, one of the best software applications for developing cross-platform Mobile Apps!!"
                                        TextColor="{StaticResource labelColor}"
-                               
                                HorizontalOptions="Center"
                                MaxLines="25"
                                FontSize="Body"
