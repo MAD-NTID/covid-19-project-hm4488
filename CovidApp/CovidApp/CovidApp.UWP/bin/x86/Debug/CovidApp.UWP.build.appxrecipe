@@ -28,7 +28,7 @@
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\CovidApp.UWP.exe">
       <PackagePath>entrypoint\CovidApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\com.airbnb.xamarin.forms.lottie\3.0.3\lib\uap10.0.16299\Lottie.Forms.dll">
+    <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\com.airbnb.xamarin.forms.lottie\3.0.0\lib\uap10.0.16299\Lottie.Forms.dll">
       <PackagePath>Lottie.Forms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\lottieuwp\2.8.2\lib\uap10.0\LottieUWP.dll">

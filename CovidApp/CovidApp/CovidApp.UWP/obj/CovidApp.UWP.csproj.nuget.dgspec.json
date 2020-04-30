@@ -45,7 +45,7 @@
           "dependencies": {
             "Com.Airbnb.Xamarin.Forms.Lottie": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.0.0, )"
             },
             "MagicGradients": {
               "target": "Package",
@@ -147,7 +147,7 @@
           "dependencies": {
             "Com.Airbnb.Xamarin.Forms.Lottie": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.0.0, )"
             },
             "MagicGradients": {
               "target": "Package",

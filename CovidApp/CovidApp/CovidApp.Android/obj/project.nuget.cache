@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QgsxY1H+knF/Ej366ohYEXSfzSOUexAGEzqcK+UqoLm/9ucfkuGa5I/5ErQbgdLyz7b7BnTf7a1IEZz/u1sR2g==",
+  "dgSpecHash": "7nvZq1XB1/RLplI8cB03ySq/HHMuNOwe9aBnjidHrtnlCWJEmuVTl7sroHncwiA1eUuFJnphBc/5EmRoo7CsFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\harsh\\source\\repos\\covid-19-project-hm4488\\CovidApp\\CovidApp\\CovidApp.Android\\CovidApp.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.android.lottie\\3.0.5\\com.airbnb.android.lottie.3.0.5.nupkg.sha512",
-    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.3\\com.airbnb.xamarin.forms.lottie.3.0.3.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.android.lottie\\3.0.3\\com.airbnb.android.lottie.3.0.3.nupkg.sha512",
+    "C:\\Users\\harsh\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.0.0\\com.airbnb.xamarin.forms.lottie.3.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\magicgradients\\1.0.0\\magicgradients.1.0.0.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts\\0.7.1\\microcharts.0.7.1.nupkg.sha512",
     "C:\\Users\\harsh\\.nuget\\packages\\microcharts.forms\\0.7.1\\microcharts.forms.0.7.1.nupkg.sha512",
