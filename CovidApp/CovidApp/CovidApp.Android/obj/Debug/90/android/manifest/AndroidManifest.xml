@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="CovidApp.Android" android:icon="@drawable/splash_logo" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="Covid App" android:icon="@drawable/splash_logo" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="CovidApp" android:theme="@style/MainTheme" android:name="crc64773028b116c519f6.MainActivity" />
     <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="crc64773028b116c519f6.SplashActivity">
       <intent-filter>
