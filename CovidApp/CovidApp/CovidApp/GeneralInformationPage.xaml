@@ -5,6 +5,7 @@
              xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
+             xmlns:resources="clr-namespace:CovidApp.Resx"
              x:Class="CovidApp.GeneralInformationPage"
              Title="Information">
     <ContentPage.Content>
@@ -21,7 +22,7 @@
 
                 <StackLayout>
 
-                    <Label Text="Coronavirus (COVID-19)!!"
+                    <Label Text="{x:Static resources:AppResources.CoronavirusLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="27"
@@ -45,7 +46,7 @@
                                     WidthRequest="300"
                     />
 
-                    <Label Text="A coronavirus is a kind of common virus that causes an infection in your nose, sinuses, or upper throat. Most coronaviruses aren't dangerous. COVID-19 is a disease that can cause what doctors call a respiratory tract infection. It can affect your upper respiratory tract (sinuses, nose, and throat) or lower respiratory tract (windpipe and lungs). It's caused by a coronavirus named SARS-CoV-2."
+                    <Label Text="{x:Static resources:AppResources.GeneralCoronavirusLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -54,7 +55,7 @@
                                LineBreakMode="TailTruncation"
                            Margin="23"/>
 
-                    <Label Text="Worldwide Statistics"
+                    <Label Text="{x:Static resources:AppResources.Worldwide_StatisticsLabel}"
                                  Margin="10"
                                TextColor="{StaticResource labelColor}"
                                FontSize="27"
@@ -63,6 +64,7 @@
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
                     />
+                    
                        <microcharts:ChartView x:Name="chartView" HeightRequest="200" WidthRequest="200" />
 
                     
@@ -71,8 +73,6 @@
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="*" />
                                         <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
@@ -88,7 +88,7 @@
 
                                     <Label Grid.Column="0"
                            TextColor="Yellow"
-                       Text="Confirmed:"
+                       Text="{x:Static resources:AppResources.ConfirmedDisplayLabelInGeneral}"
                                FontSize="Medium"
                                Grid.ColumnSpan="3"
                           
@@ -105,7 +105,7 @@
 
                                     <Label Grid.Column="0"
                            TextColor="LawnGreen"
-                       Text="Recovered:"
+                       Text="{x:Static resources:AppResources.RecoveredDisplayLabelInGeneral}"
                                FontSize="Medium"
                       
                            Grid.Row="1"
@@ -126,7 +126,7 @@
 
                                     <Label Grid.Column="0"
                            TextColor="Red"
-                       Text="Deaths:"
+                       Text="{x:Static resources:AppResources.DeathDisplayLabelInGeneral}"
                                FontSize="Medium"
                        
                            Grid.Row="2"
@@ -144,9 +144,9 @@
                        VerticalOptions="End" />
 
                                 </Grid>
-                            
 
-                    <Label Text="Symptoms of COVID-19"
+
+                    <Label Text="{x:Static resources:AppResources.SymptomsofCovidLabel}"
                                  Margin="10"
                                TextColor="{StaticResource labelColor}"
                                FontSize="27"
@@ -155,70 +155,70 @@
                                HorizontalOptions="Center"
                                VerticalOptions="Center" 
                     />
-                    <Label Text="Early Symptoms include:"
+                    <Label Text="{x:Static resources:AppResources.EarlySymptomsIncludeLabel}"
                                        TextColor="{StaticResource labelColor}"
                                Margin="23"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Fever" 
+                    <Label Text="{x:Static resources:AppResources.FeverLabel}" 
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Dry Cough"
+                    <Label Text="{x:Static resources:AppResources.FeverLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Fatigue"
+                    <Label Text="{x:Static resources:AppResources.FatigueLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="The virus can lead to pneumonia, respiratory failure, septic shock, and death. If you notice the following severe symptoms in yourself or a loved one, get medical help right away:"
+                    <Label Text="{x:Static resources:AppResources.The_virus_can_lead_to_pneumonia__respiratory_failure__septic_shock__and_death__If_you_notice_the_following_severe_symptoms_in_yourself_or_a_loved_one__get_medical_help_right_awayLabel}"
                                        TextColor="{StaticResource labelColor}"
                                Margin="23"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Trouble breathing or shortness of breath"
+                    <Label Text="{x:Static resources:AppResources.The_virus_can_lead_to_pneumonia__respiratory_failure__septic_shock__and_death__If_you_notice_the_following_severe_symptoms_in_yourself_or_a_loved_one__get_medical_help_right_awayLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Ongoing chest pain or pressure"
+                    <Label Text="{x:Static resources:AppResources.Trouble_breathing_or_shortness_of_breathLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="New confusion"
+                    <Label Text="{x:Static resources:AppResources.New_confusionLabel}"
                                        TextColor="{StaticResource labelColor}"
                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Can't wake up fully"
+                    <Label Text="{x:Static resources:AppResources.Can_t_wake_up_fullyLabel}"
                                        TextColor="{StaticResource labelColor}"
                               FontAttributes="Bold"
                                HorizontalOptions="Center"
                                MaxLines="20"
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
-                    <Label Text="Bluish lips or face"
+                    <Label Text="{x:Static resources:AppResources.Bluish_lips_or_faceLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -226,7 +226,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Coronavirus Risk Factors"
+                    <Label Text="{x:Static resources:AppResources.Coronavirus_Risk_FactorsLabel}"
                                 Margin="10"
                                TextColor="{StaticResource labelColor}"
                                FontSize="27"
@@ -236,7 +236,7 @@
                                VerticalOptions="Center" 
                     />
 
-                    <Label Text="Anyone can get COVID-19, and most infections are usually mild, especially in children and young adults. But if you aren't in an area where COVID-19 is spreading, haven't traveled from an area where it's spreading, and haven't been in contact with someone who has it, your risk of infection is low."
+                    <Label Text="{x:Static resources:AppResources.Anyone_can_get_COVID_19__and_most_infections_are_usually_mild__especially_in_children_and_young_adults__But_if_you_aren_t_in_an_area_where_COVID_19_is_spreading__haven_t_traveled_from_an_area_where_it_s_spreading__and_haven_t_been_in_contact_with_someone_who_has_it__your_risk_of_infection_is_lowLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -244,7 +244,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="People over 65 are most likely to get a serious illness, as are those who live in nursing homes or long-term care facilities, who have weakened immune systems, or who have medical conditions including:"
+                    <Label Text="{x:Static resources:AppResources.People_over_65_are_most_likely_to_get_a_serious_illness__as_are_those_who_live_in_nursing_homes_or_long_term_care_facilities__who_have_weakened_immune_systems__or_who_have_medical_conditions_includingLabel}"
                                        TextColor="{StaticResource labelColor}"
                               
                                HorizontalOptions="Center"
@@ -252,7 +252,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Moderate to severe asthma"
+                    <Label Text="{x:Static resources:AppResources.Moderate_to_severe_asthmaLabel}"
                                        TextColor="{StaticResource labelColor}"
                               FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -260,7 +260,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Heart, lung, or liver disease"
+                    <Label Text="{x:Static resources:AppResources.Heart__lung__or_liver_diseaseLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -268,7 +268,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Kidney disease that needs dialysis"
+                    <Label Text="{x:Static resources:AppResources.Kidney_disease_that_needs_dialysisLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -276,7 +276,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Severe obesity"
+                    <Label Text="{x:Static resources:AppResources.Severe_obesityLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -284,7 +284,7 @@
                                FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="Diabetes"
+                    <Label Text="{x:Static resources:AppResources.DiabetesLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"

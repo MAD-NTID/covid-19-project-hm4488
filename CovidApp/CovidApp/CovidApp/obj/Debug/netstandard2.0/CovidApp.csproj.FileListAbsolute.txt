@@ -28,7 +28,6 @@ C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\o
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\ref\CovidApp.dll
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.pdb
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\MasterPage.xaml.g.cs
-C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\Settings.xaml.g.cs
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\GeneralInformationPage.xaml.g.cs
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csproj.CoreCompileInputs.cache
@@ -36,3 +35,8 @@ C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\o
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\References.xaml.g.cs
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csprojAssemblyReference.cache
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.Resx.AppResources.resources
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.Resx.AppResources.es.resources
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\CovidApp.csproj.GenerateResource.cache
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\es\CovidApp.resources.dll
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\obj\Debug\netstandard2.0\es\CovidApp.resources.dll

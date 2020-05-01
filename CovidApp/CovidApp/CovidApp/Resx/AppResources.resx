@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Anyone can get COVID-19, and most infections are usually mild, especially in children and young adults. But if you aren't in an area where COVID-19 is spreading, haven't traveled from an area where it's spreading, and haven't been in contact with someone who has it, your risk of infection is lowLabel" xml:space="preserve">
+    <value>Anyone can get COVID-19, and most infections are usually mild, especially in children and young adults. But if you aren't in an area where COVID-19 is spreading, haven't traveled from an area where it's spreading, and haven't been in contact with someone who has it, your risk of infection is low.</value>
+  </data>
+  <data name="App icon is provided by icons8.comLabel" xml:space="preserve">
+    <value>App icon is provided by icons8.com</value>
+  </data>
+  <data name="App's VersionLabel" xml:space="preserve">
+    <value>App's Version</value>
+  </data>
+  <data name="Avoid close contact with people who are sick, maintain 3 feet/6 meters away from other peopleLabel" xml:space="preserve">
+    <value>Avoid close contact with people who are sick, maintain 3 feet/6 meters away from other people.</value>
+  </data>
+  <data name="Avoid close contactLabel" xml:space="preserve">
+    <value>Avoid close contact!!</value>
+  </data>
+  <data name="Avoid touching eyes, nose and mouthLabel" xml:space="preserve">
+    <value>Avoid touching eyes, nose and mouth!!</value>
+  </data>
+  <data name="Bluish lips or faceLabel" xml:space="preserve">
+    <value>Bluish lips or face</value>
+  </data>
+  <data name="Can't wake up fullyLabel" xml:space="preserve">
+    <value>Can't wake up fully</value>
+  </data>
+  <data name="ConfirmedDisplayLabelInGeneral" xml:space="preserve">
+    <value>Confirmed:</value>
+  </data>
+  <data name="Coronavirus Risk FactorsLabel" xml:space="preserve">
+    <value>Coronavirus Risk Factors</value>
+  </data>
+  <data name="CoronavirusLabel" xml:space="preserve">
+    <value>Coronavirus</value>
+  </data>
+  <data name="DeathDisplayLabelInGeneral" xml:space="preserve">
+    <value>Deaths:</value>
+  </data>
+  <data name="Developed in Xamarin.Forms, one of the best software applications for developing cross-platform Mobile AppsLabel" xml:space="preserve">
+    <value>Developed in Xamarin.Forms, one of the best software applications for developing cross-platform Mobile Apps!!</value>
+  </data>
+  <data name="DeveloperLabel" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="DiabetesLabel" xml:space="preserve">
+    <value>Diabetes</value>
+  </data>
+  <data name="DryCoughLabel" xml:space="preserve">
+    <value>Dry Cough</value>
+  </data>
+  <data name="EarlySymptomsIncludeLabel" xml:space="preserve">
+    <value>Early Symptoms include:</value>
+  </data>
+  <data name="FatigueLabel" xml:space="preserve">
+    <value>Fatigue</value>
+  </data>
+  <data name="FeverLabel" xml:space="preserve">
+    <value>Fever</value>
+  </data>
+  <data name="Find specific countryLabel" xml:space="preserve">
+    <value>Find specific country...</value>
+  </data>
+  <data name="GeneralCoronavirusLabel" xml:space="preserve">
+    <value>A coronavirus is a kind of common virus that causes an infection in your nose, sinuses, or upper throat. Most coronaviruses aren't dangerous. COVID-19 is a disease that can cause what doctors call a respiratory tract infection. It can affect your upper respiratory tract (sinuses, nose, and throat) or lower respiratory tract (windpipe and lungs). It's caused by a coronavirus named SARS-CoV-2.</value>
+  </data>
+  <data name="Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouthLabel" xml:space="preserve">
+    <value>Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth.</value>
+  </data>
+  <data name="Harsh MathurLabel" xml:space="preserve">
+    <value>Harsh Mathur</value>
+  </data>
+  <data name="Heart, lung, or liver diseaseLabel" xml:space="preserve">
+    <value>Heart, lung, or liver disease</value>
+  </data>
+  <data name="If you have fever, cough and difficulty breathing, seek medical care earlyLabel" xml:space="preserve">
+    <value>If you have fever, cough and difficulty breathing, seek medical care early!!</value>
+  </data>
+  <data name="In About Page, the Xamarin animation  is provided by LottieFilez in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In About Page, the Xamarin animation  is provided by LottieFilez in LottiesFiles.com</value>
+  </data>
+  <data name="In Information Page, the coronavirus animation is provided by LottiesFiles in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Information Page, the coronavirus animation is provided by LottiesFiles in LottiesFiles.com</value>
+  </data>
+  <data name="In Information Page, the information is written by Michael W. Smith, MD in webmd.com on April 24, 2020Label" xml:space="preserve">
+    <value>In Information Page, the information is written by Michael W. Smith, MD in webmd.com on April 24, 2020.</value>
+  </data>
+  <data name="In Information Page, the lungs animation is provided by Rohan Mahindrakar in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Information Page, the lungs animation is provided by Rohan Mahindrakar in LottiesFiles.com</value>
+  </data>
+  <data name="In Information Page, the microchart data is powered by Gramzivi in Rapid API websiteLabel" xml:space="preserve">
+    <value>In Information Page, the microchart data is powered by Gramzivi in Rapid API website</value>
+  </data>
+  <data name="In News Page, the news data is powered by Bing News Search in Rapid API websiteLabel" xml:space="preserve">
+    <value>In News Page, the news data is powered by Bing News Search in Rapid API website</value>
+  </data>
+  <data name="In Statistics Page, the coronavirus data in all countries is powered by Gramzivi in Rapid API websiteLabel" xml:space="preserve">
+    <value>In Statistics Page, the coronavirus data in all countries is powered by Gramzivi in Rapid API website</value>
+  </data>
+  <data name="In Survival Guide Page, the Avoid Close Contact animation is provided by Md Najmul Islam Shakil in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Survival Guide Page, the Avoid Close Contact animation is provided by Md Najmul Islam Shakil in LottiesFiles.com</value>
+  </data>
+  <data name="In Survival Guide Page, the Avoid touching your eyes, nose, face animation is provided by Wesley Guirra in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Survival Guide Page, the Avoid touching your eyes, nose, face animation is provided by Wesley Guirra in LottiesFiles.com</value>
+  </data>
+  <data name="In Survival Guide Page, the Seek Medical care animation is provided by Sarpreet Kaylan in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Survival Guide Page, the Seek Medical care animation is provided by Sarpreet Kaylan in LottiesFiles.com</value>
+  </data>
+  <data name="In Survival Guide Page, the Try to stay home animation is provided by David Probst Jr in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Survival Guide Page, the Try to stay home animation is provided by David Probst Jr in LottiesFiles.com</value>
+  </data>
+  <data name="In Survival Guide Page, the Wash Your Hands animation is provided by Rajeesh VK in LottiesFiles.comLabel" xml:space="preserve">
+    <value>In Survival Guide Page, the Wash Your Hands animation is provided by Rajeesh VK in LottiesFiles.com</value>
+  </data>
+  <data name="Kidney disease that needs dialysisLabel" xml:space="preserve">
+    <value>Kidney disease that needs dialysis</value>
+  </data>
+  <data name="Moderate to severe asthmaLabel" xml:space="preserve">
+    <value>Moderate to severe asthma</value>
+  </data>
+  <data name="New confusionLabel" xml:space="preserve">
+    <value>New confusion</value>
+  </data>
+  <data name="Ongoing chest pain or pressureLabel" xml:space="preserve">
+    <value>Ongoing chest pain or pressure</value>
+  </data>
+  <data name="People over 65 are most likely to get a serious illness, as are those who live in nursing homes or long-term care facilities, who have weakened immune systems, or who have medical conditions includingLabel" xml:space="preserve">
+    <value>People over 65 are most likely to get a serious illness, as are those who live in nursing homes or long-term care facilities, who have weakened immune systems, or who have medical conditions including:</value>
+  </data>
+  <data name="RecoveredDisplayLabelInGeneral" xml:space="preserve">
+    <value>Recovered:</value>
+  </data>
+  <data name="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and waterLabel" xml:space="preserve">
+    <value>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</value>
+  </data>
+  <data name="Severe obesityLabel" xml:space="preserve">
+    <value>Severe obesity</value>
+  </data>
+  <data name="Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advanceLabel" xml:space="preserve">
+    <value>Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.</value>
+  </data>
+  <data name="Staying at home reduces the spread of coronavirus and reduces the risk of getting infected as well as spread to other peopleLabel" xml:space="preserve">
+    <value>Staying at home reduces the spread of coronavirus and reduces the risk of getting infected as well as spread to other people.</value>
+  </data>
+  <data name="SymptomsofCovidLabel" xml:space="preserve">
+    <value>Symptoms of COVID-19</value>
+  </data>
+  <data name="The virus can lead to pneumonia, respiratory failure, septic shock, and death. If you notice the following severe symptoms in yourself or a loved one, get medical help right awayLabel" xml:space="preserve">
+    <value>The virus can lead to pneumonia, respiratory failure, septic shock, and death. If you notice the following severe symptoms in yourself or a loved one, get medical help right away:</value>
+  </data>
+  <data name="This is a page that I give credits to people that who have made their work and to respect their copyrightsLabel" xml:space="preserve">
+    <value>This is a page that I give credits to people that who have made their work and to respect their copyrights</value>
+  </data>
+  <data name="Trouble breathing or shortness of breathLabel" xml:space="preserve">
+    <value>Trouble breathing or shortness of breath</value>
+  </data>
+  <data name="Try to stay homeLabel" xml:space="preserve">
+    <value>Try to stay home!!</value>
+  </data>
+  <data name="Wash your handsLabel" xml:space="preserve">
+    <value>Wash your hands!!</value>
+  </data>
+  <data name="Worldwide StatisticsLabel" xml:space="preserve">
+    <value>Worldwide Statistics</value>
+  </data>
+</root>

@@ -21,6 +21,11 @@
         },
         "runtime": {
           "CovidApp.dll": {}
+        },
+        "resources": {
+          "es/CovidApp.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "Com.Airbnb.Xamarin.Forms.Lottie/3.0.0": {

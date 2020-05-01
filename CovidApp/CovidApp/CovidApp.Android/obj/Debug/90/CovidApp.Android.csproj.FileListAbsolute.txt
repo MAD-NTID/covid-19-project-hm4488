@@ -1051,3 +1051,4 @@ C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.A
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.Android\obj\Debug\90\android\src\crc64e9f97cf19b8286a9\ChartView.java
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.Android\obj\Debug\90\android\assets\Lottie.Android.dll.mdb
 C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.Android\obj\Debug\90\android\assets\Lottie.Forms.dll.mdb
+C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.Android\bin\Debug\es\CovidApp.resources.dll

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7D56DB3187A76005987A004173D891C7EE156A7A1D5C4C2F033DFC8CB3A42FBC</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>44F69B845577F45E0676F919774444943325C0603C1F5AC06374F8A432681451</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>519cc597-c1e9-4858-b387-7e08d5197c22_1.0.0.0_x86__86qc17fj1gdt6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>519cc597-c1e9-4858-b387-7e08d5197c22_86qc17fj1gdt6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>519cc597-c1e9-4858-b387-7e08d5197c22</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-30T21:13:12.267</Modified>
+      <Modified>2020-05-01T01:57:27.998</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\CovidApp.UWP.exe">
       <PackagePath>entrypoint\CovidApp.UWP.exe</PackagePath>
-      <Modified>2020-04-30T21:13:10.026</Modified>
+      <Modified>2020-05-01T01:57:25.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\com.airbnb.xamarin.forms.lottie\3.0.0\lib\uap10.0.16299\Lottie.Forms.dll">
       <PackagePath>Lottie.Forms.dll</PackagePath>
@@ -128,7 +128,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.dll">
       <PackagePath>CovidApp.dll</PackagePath>
-      <Modified>2020-04-30T21:11:13.150</Modified>
+      <Modified>2020-05-01T01:57:16.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\es\CovidApp.resources.dll">
+      <PackagePath>es\CovidApp.resources.dll</PackagePath>
+      <Modified>2020-05-01T01:57:17.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -280,11 +284,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-30T21:13:09.603</Modified>
+      <Modified>2020-05-01T01:57:25.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-30T21:13:09.603</Modified>
+      <Modified>2020-05-01T01:57:25.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -300,11 +304,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-30T21:11:17.226</Modified>
+      <Modified>2020-05-01T01:57:26.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp.UWP\bin\x86\Debug\Core\CovidApp.UWP.exe">
       <PackagePath>CovidApp.UWP.exe</PackagePath>
-      <Modified>2020-04-30T21:13:12.259</Modified>
+      <Modified>2020-05-01T01:57:27.990</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
              Title="About"
+              xmlns:resources="clr-namespace:CovidApp.Resx"
              x:Class="CovidApp.AboutPage">
     <ContentPage.Content>
         <ScrollView>
@@ -35,7 +36,7 @@
 
                     
 
-                    <Label Text="App's Version"
+                    <Label Text="{x:Static resources:AppResources.App_s_VersionLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -53,7 +54,7 @@
                                LineBreakMode="TailTruncation"
                            Margin="23"/>
 
-                    <Label Text="Developer"
+                    <Label Text="{x:Static resources:AppResources.DeveloperLabel}"
                                        TextColor="{StaticResource labelColor}"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"
@@ -62,7 +63,7 @@
                                LineBreakMode="TailTruncation"
                            Margin="23"/>
 
-                    <Label Text="Harsh Mathur"
+                    <Label Text="{x:Static resources:AppResources.Harsh_MathurLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -71,7 +72,7 @@
                                LineBreakMode="TailTruncation"
                            Margin="23"/>
 
-                    <Label Text="Developed in Xamarin.Forms, one of the best software applications for developing cross-platform Mobile Apps!!"
+                    <Label Text="{x:Static resources:AppResources.Developed_in_Xamarin_Forms__one_of_the_best_software_applications_for_developing_cross_platform_Mobile_AppsLabel}"
                                        TextColor="{StaticResource labelColor}"
                                HorizontalOptions="Center"
                                MaxLines="25"

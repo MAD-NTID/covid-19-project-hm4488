@@ -97,6 +97,9 @@
     <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\CovidApp.dll">
       <PackagePath>CovidApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\harsh\source\repos\covid-19-project-hm4488\CovidApp\CovidApp\CovidApp\bin\Debug\netstandard2.0\es\CovidApp.resources.dll">
+      <PackagePath>es\CovidApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\harsh\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>

@@ -5,6 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
              x:Class="CovidApp.SurvivalGuidePage"
+             xmlns:resources="clr-namespace:CovidApp.Resx"
              Title="Survival Guide">
     
     <ContentPage.Content>
@@ -22,7 +23,7 @@
                 
                 <StackLayout>
                     
-                    <Label Text="Wash your hands!!"
+                    <Label Text="{x:Static resources:AppResources.Wash_your_handsLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
@@ -46,7 +47,7 @@
                                     WidthRequest="300"
                     />
 
-                    <Label Text="Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water."
+                    <Label Text="{x:Static resources:AppResources.Regularly_and_thoroughly_clean_your_hands_with_an_alcohol_based_hand_rub_or_wash_them_with_soap_and_waterLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -55,7 +56,7 @@
                                        FontSize="Body"
                                LineBreakMode="TailTruncation" />
 
-                    <Label Text="If you have fever, cough and difficulty breathing, seek medical care early!!"
+                    <Label Text="{x:Static resources:AppResources.If_you_have_fever__cough_and_difficulty_breathing__seek_medical_care_earlyLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
@@ -80,7 +81,7 @@
                         
                     />
 
-                    <Label Text="Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance."
+                    <Label Text="{x:Static resources:AppResources.Stay_home_if_you_feel_unwell__If_you_have_a_fever__cough_and_difficulty_breathing__seek_medical_attention_and_call_in_advanceLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -91,7 +92,7 @@
                     />
 
 
-                    <Label Text="Avoid close contact!!"
+                    <Label Text="{x:Static resources:AppResources.Avoid_close_contactLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
@@ -115,7 +116,7 @@
                                     WidthRequest="300"
                     />
 
-                    <Label Text="Avoid close contact with people who are sick, maintain 3 feet/6 meters away from other people."
+                    <Label Text="{x:Static resources:AppResources.Avoid_close_contact_with_people_who_are_sick__maintain_3_feet_6_meters_away_from_other_peopleLabel}"
                                        TextColor="{StaticResource labelColor}"
                                Margin="25"
                                HorizontalOptions="Center"
@@ -125,7 +126,7 @@
                            
                     />
 
-                    <Label Text="Avoid touching eyes, nose and mouth!!"
+                    <Label Text="{x:Static resources:AppResources.Avoid_touching_eyes__nose_and_mouthLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
@@ -150,7 +151,7 @@
                         Margin="25"
                     />
 
-                    <Label Text="Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth."
+                    <Label Text="{x:Static resources:AppResources.Hands_touch_many_surfaces_and_can_pick_up_viruses__Once_contaminated__hands_can_transfer_the_virus_to_your_eyes__nose_or_mouthLabel}"
                                        TextColor="{StaticResource labelColor}"
                                
                                HorizontalOptions="Center"
@@ -160,7 +161,7 @@
                            Margin="25"
                     />
 
-                    <Label Text="Try to stay home!!"
+                    <Label Text="{x:Static resources:AppResources.Try_to_stay_homeLabel}"
                                  
                                TextColor="{StaticResource labelColor}"
                                FontSize="30"
@@ -185,7 +186,7 @@
                         Margin="25"
                     />
 
-                    <Label Text="Staying at home reduces the spread of coronavirus and reduces the risk of getting infected as well as spread to other people."
+                    <Label Text="{x:Static resources:AppResources.Staying_at_home_reduces_the_spread_of_coronavirus_and_reduces_the_risk_of_getting_infected_as_well_as_spread_to_other_peopleLabel}"
                                        TextColor="{StaticResource labelColor}"
                                Margin="25"
                                HorizontalOptions="Center"
